@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" xml:space="preserve" viewBox="0 0 392.679 122.5" version="1.1">
+		<g id="Layer_1" stroke="#000">
+			<path id="path7" d="m302.22 58.956c12.42 0 22.5 10.081 22.5 22.5s-10.08 22.5-22.5 22.5-22.5-10.08-22.5-22.5 10.08-22.5 22.5-22.5" fill="#8bd3e5" fill-rule="evenodd"/>
+			<path id="path9" d="m302.22 67.957c7.451 0 13.5 6.047 13.5 13.5 0 7.451-6.049 13.5-13.5 13.5-7.453 0-13.5-6.049-13.5-13.5 0-7.454 6.047-13.5 13.5-13.5" fill="#fff" fill-rule="evenodd"/>
+			<polygon id="polygon11" fill-rule="evenodd" points="383.18 0.5 383.18 54.5 374.18 54.5 374.18 0.5 374.18 0.5" fill="#f0037f"/>
+			<polygon id="polygon13" fill-rule="evenodd" points="383.18 54.5 383.18 108.5 374.18 108.5 374.18 54.5 374.18 54.5" fill="#f00"/>
+			<line id="line15" y2="54.5" x2="392.18" y1="54.5" x1="383.18" fill="none"/>
+			<polygon id="polygon17" fill-rule="evenodd" points="374.18 54.5 374.18 63.5 257.18 63.5 257.18 54.5 257.18 54.5" fill="#668187"/>
+			<polygon id="polygon19" fill-rule="evenodd" points="374.18 45.5 374.18 54.5 257.18 54.5 257.18 45.5 257.18 45.5" fill="#ff0"/>
+			<polygon id="polygon21" fill-rule="evenodd" points="374.18 27.5 374.18 45.5 338.18 45.5 338.18 27.5 338.18 27.5" fill="#ff7f00"/>
+			<polygon id="polygon23" fill-rule="evenodd" points="374.18 63.5 374.18 81.5 338.18 81.5 338.18 63.5 338.18 63.5" fill="#ff0"/>
+			<path id="path25" d="m374.18 0.5c-4.607 10.548-16.416 19.368-36 27-19.691 7.56-46.367 13.428-81 18m117 63c-4.607-10.584-16.416-19.439-36-27-19.691-7.596-46.367-13.463-81-18m117-63c12.025 18.144 17.93 35.82 18 54-0.07 18.144-5.975 35.82-18 54" fill="none"/>
+			<polygon id="polygon27" fill-rule="evenodd" points="257.18 50 257.18 54.5 162.68 54.5 162.68 50 162.68 50" fill="#33a02c"/>
+			<polygon id="polygon29" fill-rule="evenodd" points="162.68 50 162.68 54.5 68.18 54.5 68.18 50 68.18 50" fill="#0a50a1"/>
+			<polygon id="polygon31" fill-rule="evenodd" points="257.18 54.5 257.18 59 162.68 59 162.68 54.5 162.68 54.5" fill="#009193"/>
+			<polygon id="polygon33" fill-rule="evenodd" points="162.68 54.5 162.68 59 68.18 59 68.18 54.5 68.18 54.5" fill="#8bd3e5"/>
+			<path id="path35" d="m257.18 45.5c-31.859 2.304-62.711 3.672-94.499 4.5-31.86 0.72-62.712 0.72-94.5 0m189 13.5c-31.86-2.34-62.71-3.708-94.5-4.5-31.86-0.792-62.712-0.792-94.5 0m0.036-9.044c17.388 0 31.5 14.112 31.5 31.5 0 17.387-14.112 31.5-31.5 31.5s-31.5-14.113-31.5-31.5c0-17.388 14.112-31.5 31.5-31.5" fill="#fff"/>
+			<path id="path37" d="m68.216 58.956c12.42 0 22.5 10.081 22.5 22.5s-10.08 22.5-22.5 22.5-22.5-10.08-22.5-22.5 10.08-22.5 22.5-22.5" fill="#f0037f" fill-rule="evenodd"/>
+			<polygon id="polygon39" fill-rule="evenodd" points="203.18 41 203.18 122 189.68 122 189.68 41 189.68 41" fill="#f0037f"/>
+			<polygon id="polygon41" fill-rule="evenodd" points="185.18 41 185.18 122 171.68 122 171.68 41 171.68 41" fill="#fbc0df"/>
+			<polygon id="polygon43" fill-rule="evenodd" points="167.18 41 167.18 122 153.68 122 153.68 41 153.68 41" fill="#f00"/>
+			<polygon id="polygon45" fill-rule="evenodd" points="149.18 104 149.18 113 68.18 113 68.18 104 68.18 104" fill="#00a0c6"/>
+			<path id="path47" d="m99.656 85.957c7.452 0 13.5 6.047 13.5 13.5 0 7.451-6.048 13.5-13.5 13.5s-13.5-6.049-13.5-13.5c0-7.454 6.048-13.5 13.5-13.5" fill="#165829" fill-rule="evenodd"/>
+			<path id="path49" d="m100.38 94.957c2.484 0 4.5 2.016 4.5 4.5 0 2.482-2.016 4.5-4.5 4.5s-4.5-2.018-4.5-4.5c0-2.485 2.016-4.5 4.5-4.5" fill="#fff" fill-rule="evenodd"/>
+			<polygon id="polygon51" fill-rule="evenodd" points="149.18 86 149.18 95 99.68 95 99.68 86 99.68 86" fill="#ff0"/>
+			<path id="path53" d="m288.66 85.957c7.453 0 13.5 6.047 13.5 13.5 0 7.451-6.047 13.5-13.5 13.5-7.451 0-13.5-6.049-13.5-13.5 0-7.454 6.049-13.5 13.5-13.5" fill="#f0037f" fill-rule="evenodd"/>
+			<path id="path55" d="m289.38 94.957c2.484 0 4.5 2.016 4.5 4.5 0 2.482-2.016 4.5-4.5 4.5s-4.5-2.018-4.5-4.5c0-2.485 2.016-4.5 4.5-4.5" fill="#fff" fill-rule="evenodd"/>
+			<polygon id="polygon57" fill-rule="evenodd" points="288.68 86 288.68 95 207.68 95 207.68 86 207.68 86" fill="#f00"/>
+			<polygon id="polygon59" fill-rule="evenodd" points="288.68 104 288.68 113 207.68 113 207.68 104 207.68 104" fill="#ff7f00"/>
+			<path id="path61" d="m226.28 66.076c4.967 0 9 4.031 9 9s-4.033 9-9 9c-4.969 0-9-4.031-9-9s4.031-9 9-9" fill="#fff" fill-rule="evenodd"/>
+			<path id="path63" d="m226.16 68.224c3.717 0 6.732 3.016 6.732 6.732 0 3.715-3.016 6.73-6.732 6.73-3.715 0-6.732-3.016-6.732-6.73-0.001-3.716 3.017-6.732 6.732-6.732" fill="#f0037f" fill-rule="evenodd"/>
+			<polygon id="polygon65" fill-rule="evenodd" points="54.68 50 54.68 59 5.18 59 5.18 50 5.18 50" fill="#f00"/>
+			<path id="path67" d="m153.64 37.328h13.5v-4.5c-1.584-0.864-2.952-1.44-4.5-1.728-1.584-0.288-2.952-0.288-4.5 0-1.584 0.288-2.952 0.864-4.5 1.728v4.5zm18 0h13.5v-4.5c-1.584-0.864-2.952-1.44-4.5-1.728-1.584-0.288-2.952-0.288-4.5 0-1.584 0.288-2.952 0.864-4.5 1.728v4.5zm18 0h13.5v-4.5c-1.584-0.864-2.951-1.44-4.5-1.728-1.584-0.288-2.952-0.288-4.5 0-1.584 0.288-2.952 0.864-4.5 1.728v4.5zm-180.14 8.208c2.484 0 4.5 2.016 4.5 4.5h-0.036 36.468c-2.7 1.152-5.004 2.484-7.056 3.996-2.052 1.476-3.852 3.096-5.256 5.004h-24.156 0.036c0 2.484-2.016 4.501-4.5 4.501v2.412h-9v-23.437h9v3.024z" fill="#ff7f00"/>
+		</g>
+	<metadata><rdf:RDF><cc:Work><dc:format>image/svg+xml</dc:format><dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/><cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/><dc:publisher><cc:Agent rdf:about="http://openclipart.org/"><dc:title>Openclipart</dc:title></cc:Agent></dc:publisher><dc:title>Trumpet</dc:title><dc:date>2010-04-19T19:46:00</dc:date><dc:description>Fun stylized trumpet</dc:description><dc:source>http://openclipart.org/detail/48979/trumpet-by-gerald_g-48979</dc:source><dc:creator><cc:Agent><dc:title>Gerald_G</dc:title></cc:Agent></dc:creator><dc:subject><rdf:Bag><rdf:li>clip art</rdf:li><rdf:li>clipart</rdf:li><rdf:li>instrument</rdf:li><rdf:li>music</rdf:li><rdf:li>trumpet</rdf:li></rdf:Bag></dc:subject></cc:Work><cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/"><cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/><cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/><cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/></cc:License></rdf:RDF></metadata></svg>

@@ -1,0 +1,34 @@
+{
+    "chainId": "5",
+    "network": "goerli",
+    "project": "imnotart_merchmint",
+    "modules": {
+        "controller": "SimpleImage",
+        "minter": "DefaultMinter",
+        "random": "UnsafeRandom",
+        "royalty": "SplitRoyalty",
+        "renderScript": "MagicMirror"
+    },
+    "deployer": "0xDFF917ab602e8508b6907dE1b038dd52B24A2379",
+    "id": "c71c67a8-61e7-4e3c-9181-d10de58b482e",
+    "date": 1691191538950,
+    "contracts": {
+        "InfinityMint": "0x630E5EEf69b99be48422869e884c316C5a75ab5A",
+        "InfinityMintStorage": "0x844D33D1d781688627C49aa98cCcDe7f0022A14C",
+        "InfinityMintUtil": "0xe7C8E90a8D19C45dA3C5fFd5449C78b01c80F0be",
+        "InfinityMintLinker": "0xaA9847f3ff271d5996Dd4E5Ff99949c549F7B942",
+        "InfinityMintValues": "0xAFE299eC42Cf27597e676e0eb13aF977c42Ff592",
+        "InfinityMintApi": "0x94BdE445b5E00E4566153e75d43c4e1DD4339d12",
+        "InfinityMintProject": "0x8E2610E48ea20ccDBEc2B8F867978f6E61FcE428",
+        "SimpleImage": "0x6E9f7C360A79AB42FD8e9c1bD9c06dB3F1466de8",
+        "UnsafeRandom": "0xCd80E8D193Db129c8807eFf9366d73a382C5A257",
+        "DefaultMinter": "0x85c00439624A9F9ee97D05181931195E2165354e",
+        "SplitRoyalty": "0x0c8CF25Cf390853AC0b31abf5aed1B023C9801BC",
+        "Mod_FlagManager": "0x1aC3Ae72F13eD342Ba6f80e04EdAA9418a1f909E",
+        "Mod_Marketplace": "0x241cb5584AC68f8e82ac9326BABd956F020A6759",
+        "Mod_SelectiveMint": "0x7D90a65e1119daA70bd422DdaF07b80668CCc6c4",
+        "Mod_MultiMinterOracle": "0x35686dFcD00e7A7e2Ab52C24A7B04C3B3Ae44c18",
+        "Mod_Redemption": "0xCbb395e7166573940Ec6EED1aE4F699a2f46B326",
+        "Mod_RedemptionLinker": "0x5963f0c0A0F6734300A25831FF9aC6b277cb049B"
+    }
+}

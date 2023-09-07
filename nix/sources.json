@@ -1,0 +1,26 @@
+{
+    "nixpkgs": {
+        "branch": "release-21.05",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "5f244caea76105b63d826911b2a1563d33ff1cdc",
+        "sha256": "1xlgynfw9svy7nvh9nkxsxdzncv9hg99gbvbwv3gmrhmzc3sar75",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/5f244caea76105b63d826911b2a1563d33ff1cdc.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "node": {
+        "branch": "main",
+        "description": "Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:",
+        "homepage": "https://nodejs.org",
+        "owner": "nodejs",
+        "repo": "node",
+        "rev": "b88628c7df0ea6c789ca4bd3e1745e939cd664d9",
+        "sha256": "12z0rfl6ir1cjic3nr4nd1hsnbbra1dvny5ysc4mrqs2v7745pzg",
+        "type": "tarball",
+        "url": "https://github.com/nodejs/node/archive/b88628c7df0ea6c789ca4bd3e1745e939cd664d9.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}

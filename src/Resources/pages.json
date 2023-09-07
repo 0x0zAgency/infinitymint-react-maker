@@ -1,0 +1,147 @@
+[
+  {
+    "path": "Pages/Admin/Authentication.js",
+    "name": "Authentication",
+    "directory": "Pages/Admin/"
+  },
+  {
+    "path": "Pages/Admin/Gems.js",
+    "name": "Gems",
+    "directory": "Pages/Admin/"
+  },
+  {
+    "path": "Pages/Admin/Minter.js",
+    "name": "Minter",
+    "directory": "Pages/Admin/"
+  },
+  {
+    "path": "Pages/Admin/Royalty.js",
+    "name": "Royalty",
+    "directory": "Pages/Admin/"
+  },
+  {
+    "path": "Pages/Admin/SetPrice.js",
+    "name": "SetPrice",
+    "directory": "Pages/Admin/"
+  },
+  {
+    "path": "Pages/Admin/UpdateProject.js",
+    "name": "UpdateProject",
+    "directory": "Pages/Admin/"
+  },
+  {
+    "path": "Pages/Editor/ProjectCreator.js",
+    "name": "ProjectCreator",
+    "directory": "Pages/Editor/"
+  },
+  {
+    "path": "Pages/Editor/ProjectUtility.js",
+    "name": "ProjectUtility",
+    "directory": "Pages/Editor/"
+  },
+  {
+    "path": "Pages/EditToken.js",
+    "name": "EditToken",
+    "directory": "Pages/"
+  },
+  {
+    "path": "Pages/Gallery.js",
+    "name": "Gallery",
+    "directory": "Pages/"
+  },
+  {
+    "path": "Pages/Index.js",
+    "name": "Index",
+    "directory": "Pages/"
+  },
+  {
+    "path": "Pages/InfinityMint.js",
+    "name": "InfinityMint",
+    "directory": "Pages/"
+  },
+  {
+    "path": "Pages/Launchpad.js",
+    "name": "Launchpad",
+    "directory": "Pages/"
+  },
+  {
+    "path": "Pages/Mint.js",
+    "name": "Mint",
+    "directory": "Pages/"
+  },
+  {
+    "path": "Pages/MyTokens.js",
+    "name": "MyTokens",
+    "directory": "Pages/"
+  },
+  {
+    "path": "Pages/NotFound.js",
+    "name": "NotFound",
+    "directory": "Pages/"
+  },
+  {
+    "path": "Pages/Options.js",
+    "name": "Options",
+    "directory": "Pages/"
+  },
+  {
+    "path": "Pages/Preview.js",
+    "name": "Preview",
+    "directory": "Pages/"
+  },
+  {
+    "path": "Pages/Sponsor.js",
+    "name": "Sponsor",
+    "directory": "Pages/"
+  },
+  {
+    "path": "Pages/StickerControlPanel.js",
+    "name": "StickerControlPanel",
+    "directory": "Pages/"
+  },
+  {
+    "path": "Pages/StickerCreator.js",
+    "name": "StickerCreator",
+    "directory": "Pages/"
+  },
+  {
+    "path": "Pages/StickerEditor.js",
+    "name": "StickerEditor",
+    "directory": "Pages/"
+  },
+  {
+    "path": "Pages/Team.js",
+    "name": "Team",
+    "directory": "Pages/"
+  },
+  {
+    "path": "Pages/TokenURI.js",
+    "name": "TokenURI",
+    "directory": "Pages/"
+  },
+  {
+    "path": "Pages/Utility/Converter.js",
+    "name": "Converter",
+    "directory": "Pages/Utility/"
+  },
+  {
+    "path": "Pages/Utility/Parser.js",
+    "name": "Parser",
+    "directory": "Pages/Utility/"
+  },
+  {
+    "path": "Pages/Utility/Status.js",
+    "name": "Status",
+    "directory": "Pages/Utility/"
+  },
+  {
+    "path": "Pages/ViewData.js",
+    "name": "ViewData",
+    "directory": "Pages/"
+  },
+  {
+    "path": "Pages/ViewToken.js",
+    "name": "ViewToken",
+    "directory": "Pages/"
+  }
+]

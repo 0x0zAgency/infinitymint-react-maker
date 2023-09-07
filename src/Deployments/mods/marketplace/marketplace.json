@@ -1,0 +1,27 @@
+{
+    "manifest": {
+        "name": "🏴‍☠️Sea.eth Marketplace Gem",
+        "author": "0xTinman.eth, 0xWizardof0z.eth",
+        "description": "Enables decentalized marketplace functionality for your ♾️Mint",
+        "version": 1,
+        "dependencies": []
+    },
+    "loaded": 1694118822462,
+    "path": "mods/marketplace/",
+    "name": "marketplace",
+    "enabled": true,
+    "setupMethod": null,
+    "main": true,
+    "mainSrc": "marketplace/main.js",
+    "reactPath": "/Users/zyonjosh/Documents/GitHub/infinitymint/../infinitymint-react-maker/src/Deployments/mods/marketplace/",
+    "files": {
+        "pages": [
+            "marketplace/Pages/Offer"
+        ],
+        "images": [],
+        "styles": [],
+        "components": [],
+        "modals": [],
+        "resources": []
+    }
+}

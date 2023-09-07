@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Molot';
+    src: url('../Resources/Molot.otf');
+}
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('../Resources/coolvetica.otf');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../Resources/Ubuntu-L.ttf', 'truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../Resources/Inter.var.woff2');
+}
+
+@font-face: {
+    font-family: 'Happiness';
+    src: url('../Resources/Monoisome-Regular.ttf');
+};
+
+@keyframes animateShadow {
+    from {
+        text-shadow: -10px 10px 0px #3f5efb, -20px 20px 0px #b84f9f,
+            -30px 30px 0px #fc466b;
+    }
+    to {
+        text-shadow: -30px 30px 0px #fc466b, -10px 10px 0px #3f5efb,
+            -20px 20px 0px #b84f9f;
+    }
+}
+
+.heading-text {
+    animation: animateShadow 1s ease-in-out infinite alternate;
+    font-family: 'Coolvetica', serif;
+    font-size: 11vw;
+    -webkit-animation: animateShadow 1s ease-in-out infinite alternate;
+    -moz-animation: animateShadow 1s ease-in-out infinite alternate;
+    text-shadow: -10px 10px 0px #3f5efb, -20px 20px 0px #b84f9f,
+        -30px 30px 0px #fc466b;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.subtitle-text {
+    font-family: 'Inter', serif;
+    font-size: 2.1vw;
+    text-transform: uppercase;
+    text-shadow: 0 0 2px #000, 0 0 4px #fff, 0 0 6px var(--glow-2),
+        0 0 8px var(--glow-2);
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.signoff-text {
+    font-family: 'Happiness', sans-serif;
+}
+
+@media only screen and (max-width: 1060px) {
+    .heading-text {
+        font-size: 6rem;
+    }
+    .subtitle-text {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (max-width: 676px) {
+    .heading-text {
+        font-family: 'Molot', serif;
+        font-size: 4.5rem;
+        color: var(--bs-accordion-active-bg);
+    }
+
+    .subtitle-text {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+}

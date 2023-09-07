@@ -1,0 +1,658 @@
+@font-face {
+    font-family: 'primaryFont';
+    src: url('../Resources/PartyConfettiRegular.ttf');
+}
+
+.display-1 {
+    font-size: calc(1.625rem + 4.5vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+@media (min-width: 1200px) {
+    .display-1 {
+        font-size: 5rem;
+    }
+}
+.display-2 {
+    font-size: calc(1.575rem + 3.9vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+@media (min-width: 1200px) {
+    .display-2 {
+        font-size: 4.5rem;
+    }
+}
+.display-3 {
+    font-size: calc(1.525rem + 3.3vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+@media (min-width: 1200px) {
+    .display-3 {
+        font-size: 4rem;
+    }
+}
+.display-4 {
+    font-size: calc(1.475rem + 2.7vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+@media (min-width: 1200px) {
+    .display-4 {
+        font-size: 3.5rem;
+    }
+}
+.display-5 {
+    font-size: calc(1.425rem + 2.1vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+@media (min-width: 1200px) {
+    .display-5 {
+        font-size: 3rem;
+    }
+}
+.display-6 {
+    font-size: calc(1.375rem + 1.5vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+@media (min-width: 1200px) {
+    .display-6 {
+        font-size: 2.5rem;
+    }
+}
+.display-7 {
+    font-size: calc(1.375rem + 1vw);
+    font-weight: 200;
+    line-height: 1.1;
+}
+@media (min-width: 1200px) {
+    .display-7 {
+        font-size: 2rem;
+    }
+}
+.display-8 {
+    font-size: calc(1.375rem + 0.625vw);
+    font-weight: 100;
+    line-height: 1.1;
+}
+@media (min-width: 1200px) {
+    .display-8 {
+        font-size: 1.5rem;
+    }
+}
+.display-9 {
+    font-size: calc(1rem);
+    font-weight: 100;
+    line-height: 1;
+}
+@media (min-width: 1200px) {
+    .display-9 {
+        font-size: 1rem;
+    }
+}
+
+:root {
+    --menu-bar-color: #049aa1;
+    --dark-font-color: #690100;
+    --light-font-color: #95eff3ff;
+}
+
+
+.row {
+    --bs-gutter-x: 0 !important;
+}
+
+.card {
+    margin: 8px 8px 8px 8px;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('./hamburger.svg') !important;
+}
+
+.header-bg-image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.canvas-container {
+    max-height: 1024px !important;
+}
+
+.loading-token {
+    opacity: 0.2;
+}
+
+@media (min-width: 992px) {
+    .header-text {
+        font-family: 'primaryFont' !important;
+        font-size: 4.75vw !important;
+    }
+    .header-subtext {
+        font-family: 'primaryFont' !important;
+        font-size: 3vw !important;
+    }
+}
+
+.header-text {
+    font-family: 'primaryFont' !important;
+    font-size: 9vw;
+}
+
+.header-subtext {
+    font-family: 'primaryFont' !important;
+    font-size: 6vw;
+}
+
+.svg-fix > svg {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 45vh;
+}
+
+.svg-fix-tiny > svg {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100px;
+}
+
+.cool-link {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1f1b1b;
+    border: 3.6px solid #6a6a6a;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b3afb3;
+}
+
+::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+}
+
+body {
+    min-height: 100% !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-color: black;
+    overflow-x: hidden; /** literally bandaid that shit **/
+}
+
+.navbar-hover {
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.navbar-hover:hover {
+    opacity: 1;
+}
+
+.cool-link:hover {
+    background: linear-gradient(
+        to right,
+        #6666ff,
+        #0099ff,
+        #00ff00,
+        #ff3399,
+        #6666ff
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 2s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+.partytime {
+    background: linear-gradient(
+        to right,
+        #6666ff,
+        #0099ff,
+        #00ff00,
+        #ff3399,
+        #6666ff
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 2s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+/* Flickering animation */
+@keyframes flicker {
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        text-shadow: 0 0 2px rgb(6, 226, 255), 0 0 8px rgb(6, 226, 255),
+            0 0 12px rgb(239, 9, 212), 0 0 16px rgb(239, 9, 212),
+            0 0 22px rgb(6, 226, 255), 0 0 44px rgb(239, 9, 212);
+    }
+
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+    }
+}
+
+@keyframes flickerCyber {
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        text-shadow: 0 0 2px rgb(6, 226, 255), 0 0 8px rgb(6, 226, 255),
+            0 0 12px rgb(239, 9, 212), 0 0 16px rgb(239, 9, 212),
+            0 0 22px rgb(6, 226, 255), 0 0 44px rgb(239, 9, 212);
+    }
+
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+    }
+}
+
+@keyframes flickerGold {
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        text-shadow: 0 0 2px rgb(255, 243, 6), 0 0 8px rgb(255, 245, 58),
+            0 0 12px rgb(194, 191, 20), 0 0 16px rgb(247, 255, 134),
+            0 0 22px rgb(224, 200, 20), 0 0 44px rgb(224, 190, 20);
+    }
+
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+    }
+}
+
+@keyframes flickerBlue {
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        text-shadow: 0 0 2px rgb(181, 225, 255), 0 0 8px rgb(181, 225, 255),
+            0 0 12px rgb(20, 60, 194), 0 0 16px rgb(20, 60, 194),
+            0 0 22px rgb(20, 60, 224), 0 0 44px rgb(20, 60, 224);
+    }
+
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+    }
+}
+
+@keyframes flickerRed {
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        text-shadow: 0 0 2px rgb(255, 123, 0), 0 0 8px rgb(221, 115, 15),
+            0 0 12px rgb(255, 41, 41), 0 0 16px rgb(255, 41, 41),
+            0 0 22px rgb(255, 41, 41), 0 0 44px rgb(255, 41, 41);
+    }
+
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+    }
+}
+
+@keyframes flickerGreen {
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        text-shadow: 0 0 2px rgb(208, 255, 0), 0 0 8px rgb(125, 221, 15),
+            0 0 12px rgb(41, 255, 52), 0 0 16px rgb(41, 255, 52),
+            0 0 22px rgb(60, 170, 17), 0 0 44px rgb(60, 170, 17);
+    }
+
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+    }
+}
+
+.cogFont {
+    font-size: 65px !important;
+    opacity: 0.75;
+}
+
+.loadingIcon {
+    position: absolute;
+    animation: linear infinite;
+    animation-name: moveRight;
+    animation-duration: 60s;
+}
+
+.loadingIconEquipable {
+    position: absolute;
+    margin-left: -4px;
+    margin-top: -10px;
+}
+
+@keyframes moveRight {
+    0% {
+        margin-left: -25%;
+        margin-top: -100px;
+    }
+    50% {
+        margin-left: 50%;
+        margin-top: 50px;
+    }
+    100% {
+        margin-left: 125%;
+        margin-top: 0px;
+    }
+}
+
+.fullOpacityOnHover:hover {
+    opacity: 1 !important;
+}
+
+.rainbow-text-animated {
+    font-family: 'primaryFont' !important;
+    color: white !important;
+    animation: flicker 6.9s infinite alternate;
+}
+
+.rainbow-text-animatedBlue {
+    font-family: 'primaryFont' !important;
+    color: white !important;
+    animation: flickerBlue 6.9s infinite alternate;
+}
+
+.rainbow-text-animatedRed {
+    font-family: 'primaryFont' !important;
+    color: white !important;
+    animation: flickerRed 6.9s infinite alternate;
+}
+
+.rainbow-text-animatedGreen {
+    font-family: 'primaryFont' !important;
+    color: white !important;
+    animation: flickerGreen 6.9s infinite alternate;
+}
+
+.rainbow-text-animatedGold {
+    font-family: 'primaryFont' !important;
+    color: white !important;
+    animation: flickerGold 6.9s infinite alternate;
+}
+
+.rainbow-text-animatedCyber {
+    font-family: 'primaryFont' !important;
+    color: white !important;
+    animation: flickerCyber 6.9s infinite alternate;
+}
+
+.glow-frame {
+    animation: glow 5s ease-in-out infinite alternate;
+}
+
+@-ms-keyframes spin {
+    from {
+        -ms-transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes spin {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.svgHover:hover {
+    opacity: 0.5;
+}
+
+.spinText {
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-timing-function: linear;
+    background-image: none !important;
+    animation-iteration-count: infinite;
+}
+
+.force-white {
+    color: white !important;
+}
+
+.force-black {
+    color: black !important;
+}
+
+.force-teal {
+    color: teal !important;
+}
+
+.header-bg-cover {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    z-index: 0;
+    opacity: 0.65;
+    filter: blur(64px);
+}
+
+.textGold {
+    color: white !important;
+}
+
+.rainbow-text-animated {
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: 3px 3px rgb(255, 255, 255);
+    background-size: 690% 169%;
+    color: transparent;
+    background-image: linear-gradient(
+        to left,
+        violet,
+        indigo,
+        blue,
+        green,
+        yellow,
+        orange,
+        red
+    );
+    animation: rainbow_animation 69s ease-in-out infinite;
+}
+
+@keyframes rainbow_animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1,h2,h3,h4,h5,h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6, .display-7, .display-8, .display-9 {
+    font-family: 'primaryFont' !important;
+}
+.display-1 {
+    font-size: calc(1.625rem + 4.5vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+@media (min-width: 1200px) {
+    .display-1 {
+        font-size: 5rem;
+    }
+}
+.display-2 {
+    font-size: calc(1.575rem + 3.9vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+@media (min-width: 1200px) {
+    .display-2 {
+        font-size: 4.5rem;
+    }
+}
+.display-3 {
+    font-size: calc(1.525rem + 3.3vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+@media (min-width: 1200px) {
+    .display-3 {
+        font-size: 4rem;
+    }
+}
+.display-4 {
+    font-size: calc(1.475rem + 2.7vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+@media (min-width: 1200px) {
+    .display-4 {
+        font-size: 3.5rem;
+    }
+}
+.display-5 {
+    font-size: calc(1.425rem + 2.1vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+@media (min-width: 1200px) {
+    .display-5 {
+        font-size: 3rem;
+    }
+}
+.display-6 {
+    font-size: calc(1.375rem + 1.5vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+@media (min-width: 1200px) {
+    .display-6 {
+        font-size: 2.5rem;
+    }
+}
+.display-7 {
+    font-size: calc(1.375rem + 1vw);
+    font-weight: 200;
+    line-height: 1.1;
+}
+@media (min-width: 1200px) {
+    .display-7 {
+        font-size: 2rem;
+    }
+}
+.display-8 {
+    font-size: calc(1.375rem + 0.625vw);
+    font-weight: 100;
+    line-height: 1.1;
+}
+@media (min-width: 1200px) {
+    .display-8 {
+        font-size: 1.5rem;
+    }
+}
+.display-9 {
+    font-size: calc(1rem);
+    font-weight: 100;
+    line-height: 1;
+}
+@media (min-width: 1200px) {
+    .display-9 {
+        font-size: 1rem;
+    }
+}
+
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }

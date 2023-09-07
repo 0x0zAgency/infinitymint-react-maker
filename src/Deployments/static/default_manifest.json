@@ -1,0 +1,18 @@
+{
+    "background": "@Images/background.jpg",
+    "headerBackground": "@Images/default_header.jpeg",
+    "defaultImage": "@Images/sad_panda.jpg",
+    "backgroundColour": "#6a0dad",
+    "menuColour": "#6a0dad",
+    "stylesheets": ["Styles/bootstrap.default.css"],
+    "images": {
+        "features": "@Images/features.jpg",
+        "loading": "@Images/loading.gif",
+        "texture": "@Images/texture.jpg",
+        "teamDefaultIcon": "@Images/person.png",
+        "noWeb3": "@Images/missingWeb3.png",
+        "loadingComponent": "@Images/loading.gif"
+    },
+    "project": "default",
+    "updated": 1681787447026
+}

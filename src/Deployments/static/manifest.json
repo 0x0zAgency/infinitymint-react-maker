@@ -1,0 +1,20 @@
+{
+    "logo": "partytime/logo.png",
+    "background": "@Images/bg_partytime.jpg",
+    "headerBackground": "@Images/partytime_header.png",
+    "backgroundColour": "black",
+    "stylesheets": [
+        "Styles/bootstrap.pulse.css",
+        "@Resources/app.css"
+    ],
+    "images": {
+        "features": "@Images/partytime_features.gif",
+        "loading": "@Images/loading_partytime.gif",
+        "texture": "@Images/partytime_texture.jpg",
+        "teamDefaultIcon": "@Images/person.png",
+        "noWeb3": "@Images/missingWeb3.png",
+        "loadingComponent": "@Images/loading_partytime.gif"
+    },
+    "project": "partytime",
+    "updated": 1694118822991
+}

@@ -1,0 +1,54 @@
+{
+    "manifest": {
+        "name": "♾️MultiMinter",
+        "title": "♾️MultiMinter",
+        "author": "0xTinman.eth, 0xWizardof0z.eth",
+        "description": "Add the power of TicketMint + MerchMint to your InfinityMint. Adds more minting options to your ♾️Mint. It also allows you to add embedded minters so you can offer tiered mints, service mints and more.",
+        "version": 1
+    },
+    "loaded": 1694118822463,
+    "path": "mods/multimint/",
+    "name": "multimint",
+    "enabled": true,
+    "main": true,
+    "mainSrc": "multimint/main.js",
+    "reactPath": "/Users/zyonjosh/Documents/GitHub/infinitymint/../infinitymint-react-maker/src/Deployments/mods/multimint/",
+    "files": {
+        "pages": [
+            "multimint/Pages/AllContent",
+            "multimint/Pages/AllPaths",
+            "multimint/Pages/Audiocover",
+            "multimint/Pages/EditContent",
+            "multimint/Pages/EditPath",
+            "multimint/Pages/MintMultiMinter",
+            "multimint/Pages/MultiMinter",
+            "multimint/Pages/MyMultiMinter",
+            "multimint/Pages/SelectiveMint",
+            "multimint/Pages/TicketURI",
+            "multimint/Pages/TokenContent",
+            "multimint/Pages/ViewAudio",
+            "multimint/Pages/ViewContent",
+            "multimint/Pages/ViewMultiMinter"
+        ],
+        "images": [],
+        "styles": [],
+        "components": [],
+        "modals": [
+            "multimint/Modals/CreateMinterModal",
+            "multimint/Modals/CreateURIModal",
+            "multimint/Modals/DeletePathModal",
+            "multimint/Modals/EditPathModal",
+            "multimint/Modals/InspectContentModal",
+            "multimint/Modals/LoadTokenURIModal",
+            "multimint/Modals/SaveTokenURIModal",
+            "multimint/Modals/SetContentDataModal",
+            "multimint/Modals/SetImageModal",
+            "multimint/Modals/TempProjectModal",
+            "multimint/Modals/UpdateModal",
+            "multimint/Modals/UpdateProjectModal"
+        ],
+        "resources": [
+            "multimint/Resources/Mod_MultiMinter"
+        ]
+    }
+}

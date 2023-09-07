@@ -1,0 +1,39 @@
+{
+    "manifest": {
+        "name": "🎟️ Redemption Tools",
+        "author": "0x0zAgency",
+        "description": "Offers two forms of redemption for ERC721 tokens. The first method is a passcode (💿Keys.eth) based system which doesn't need any wallets to be set up. The second is classic Merkle Tree requiring addresses.",
+        "version": 1,
+        "production": true,
+        "requirements": {
+            "version": "hydra"
+        },
+        "dependencies": [
+            "@openzeppelin/contracts"
+        ]
+    },
+    "loaded": 1694118822463,
+    "path": "mods/redemption/",
+    "name": "redemption",
+    "enabled": true,
+    "main": true,
+    "mainSrc": "redemption/main.js",
+    "reactPath": "/Users/zyonjosh/Documents/GitHub/infinitymint/../infinitymint-react-maker/src/Deployments/mods/redemption/",
+    "files": {
+        "pages": [
+            "redemption/Pages/Redemption",
+            "redemption/Pages/RedemptionControls",
+            "redemption/Pages/SimpleWhitelist"
+        ],
+        "images": [],
+        "styles": [],
+        "components": [],
+        "modals": [
+            "redemption/Modals/GeneratePhraseSetModal",
+            "redemption/Modals/LoadPhraseSetModal",
+            "redemption/Modals/ShowPhraseModal",
+            "redemption/Modals/ValidateRequestModal"
+        ],
+        "resources": []
+    }
+}

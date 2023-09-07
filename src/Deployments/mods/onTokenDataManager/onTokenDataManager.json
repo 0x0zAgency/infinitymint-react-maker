@@ -1,0 +1,24 @@
+{
+    "manifest": {
+        "name": "OnToken Data Manager",
+        "author": "0xTinman",
+        "description": "The OTDM is a mod which manages the memberData key of the tokenURI and its various interfaces.",
+        "version": 1,
+        "dependencies": []
+    },
+    "loaded": 1691982690438,
+    "path": "mods/onTokenDataManager/",
+    "name": "onTokenDataManager",
+    "enabled": true,
+    "main": true,
+    "mainSrc": "onTokenDataManager/main.js",
+    "reactPath": "/Users/zyonjosh/Documents/GitHub/infinitymint-alpha/../../GitHub/imnotart/src/Deployments/mods/onTokenDataManager/",
+    "files": {
+        "pages": [],
+        "images": [],
+        "styles": [],
+        "components": [],
+        "modals": [],
+        "resources": []
+    }
+}

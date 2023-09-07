@@ -1,0 +1,24 @@
+{
+    "manifest": {
+        "name": "Flags Extended",
+        "author": "0xTinman.eth",
+        "description": "A mod which improves the UI and functionality of the token flag and address option system. Users can see the flags they have set for each token and options they have set which effect the whole mint.",
+        "version": 1,
+        "dependencies": []
+    },
+    "loaded": 1694118822461,
+    "path": "mods/flagsExtended/",
+    "name": "flagsExtended",
+    "enabled": true,
+    "main": true,
+    "mainSrc": "flagsExtended/main.js",
+    "reactPath": "/Users/zyonjosh/Documents/GitHub/infinitymint/../infinitymint-react-maker/src/Deployments/mods/flagsExtended/",
+    "files": {
+        "pages": [],
+        "images": [],
+        "styles": [],
+        "components": [],
+        "modals": [],
+        "resources": []
+    }
+}

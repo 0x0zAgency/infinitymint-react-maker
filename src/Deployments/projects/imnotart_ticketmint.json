@@ -1,0 +1,2868 @@
+{
+    "description": {
+        "name": "🧱.ImNotArt.eth",
+        "token": "🧱",
+        "tokenPlural": "Membership 🧱",
+        "tokenSymbol": "🧱",
+        "authors": [
+            {
+                "name": "ImNotArt.eth",
+                "ens": "ImNotArt.eth",
+                "twitter": "https://twitter.com/Im_Not_Art",
+                "avatar": "https://pbs.twimg.com/profile_images/1582058372966371330/5VNs4m0-_400x400.jpg"
+            },
+            {
+                "name": "0x0z.eth",
+                "ens": "0x0z.eth",
+                "twitter": "https://twitter.com/0x0zAgency",
+                "avatar": "https://pbs.twimg.com/profile_images/1587901306039148544/Igqsaicc_400x400.jpg"
+            }
+        ]
+    },
+    "approved": [
+        "0xDFF917ab602e8508b6907dE1b038dd52B24A2379",
+        "0x527738Dd42170065d778C89264654b03f8Ed989B",
+        "0x4F7F161906ABdf91EDb780677A28c5684fAAcA88",
+        "0xD32eaE372e5F04573249345457221d18278c735D",
+        "0xB3C4Ae073f668242CFfF53157E26d10099f797e8",
+        "0x765b9FFd00d7CAEE4E03F66D5A8Ed942e80E668a",
+        "0xF3535D3Db20FD438d70c277B8b3126d02A961783",
+        "0x4229643643adE80CcF535D099d6528b8A4aF8E3C",
+        "0xE8d5d3F26E90Db39BBcb413c9b79C890fb4A9719",
+        "0x7b5e1dA32cAcCa1044ccA8B3a821424520264206",
+        "0x95826d35eeB3DB448F06736C3E676e650D6156C1",
+        "0x6966df449667303114A37884b9294f37017Eaea6",
+        "0xB0B84E0F51377614c3f92b72c90DDcCcac6C8795",
+        "0x2F66207F5F90CD5c7a14ECD55677139eC8CA9f7A",
+        "0x1AE6C62B5b9243bDA1B82Dcac901B50f9B69E189",
+        "0xBC64A10B940a96dF20E948CB37C877034313C888",
+        "0x55bf7D66cd3F71209FB102211700b045f36D6128",
+        "0x812e61B3A31fF544cA5f729E59ABa9c425dcE39f",
+        "0x75f38DDaeE05dD19591BcA92B7906A62ca56eCDC",
+        "0x9d36bBFEfA1c35b296742F7090C609241E26bb0c",
+        "0x9B1187dF8a8bDb293E0d2B7E9F931E40Af772Df2",
+        "0x628F85B61BF3a9C599789F023300501b0E95C5Ef",
+        "0x811c9166dD694Ea5E74cA06ee766771F3F8f344d",
+        "0x50F1aBe2B63b97a743970191243a5214ac47A44F"
+    ],
+    "royalties": {
+        "stickerSplit": 95,
+        "payouts": [
+            {
+                "name": "0x0z.eth",
+                "address": "0xDFF917ab602e8508b6907dE1b038dd52B24A2379",
+                "splits": {
+                    "mints": 5,
+                    "stickers": 5
+                }
+            },
+            {
+                "name": "ImNotArt.eth",
+                "address": "0xD32eaE372e5F04573249345457221d18278c735D",
+                "splits": {
+                    "mints": 95,
+                    "stickers": 95
+                }
+            }
+        ]
+    },
+    "static": {
+        "background": "@Images/bg.png",
+        "headerBackground": "@Images/default_header.jpg",
+        "defaultImage": "@Images/sad_panda.jpg",
+        "backgroundColour": "#000000",
+        "menuColour": "#000000",
+        "stylesheets": [
+            "Styles/bootstrap.imnotart.css"
+        ],
+        "fonts": {
+            "default": "fonts/Roboto/Roboto-Regular.ttf"
+        },
+        "images": {
+            "features": "@Images/loading.gif",
+            "loading": "@Images/loading.gif",
+            "texture": "@Images/texture.jpg",
+            "teamDefaultIcon": "@Images/person.png",
+            "noWeb3": "@Images/missingWeb3.png",
+            "loadingComponent": "@Images/loading.gif"
+        },
+        "project": "imnotart_ticketmint",
+        "updated": 1693764670109
+    },
+    "deployment": {
+        "colourChunkSize": 1024,
+        "seedNumber": 420,
+        "startingPrice": 0,
+        "stickerSplit": 5,
+        "baseTokenValue": 1000000000000000000,
+        "randomessFactor": 420,
+        "nameCount": 1,
+        "mustGenerateName": true,
+        "previewCount": 3,
+        "maxSupply": 1010,
+        "extraColours": 2,
+        "maxRandomNumber": 512,
+        "incrementalMode": true,
+        "stopDuplicateMint": false,
+        "matchedMode": false,
+        "lowestRarity": false,
+        "highestRarity": false,
+        "randomRarity": false
+    },
+    "paths": {
+        "0": {
+            "fileName": "imnotart/imnotclub.svg",
+            "rarity": 100,
+            "name": "🧱🏡 Club",
+            "padding": "0%",
+            "innerPadding": "0%",
+            "hideSecondBorder": false,
+            "heightScale": 1.414196123147092,
+            "translate": {
+                "x": "0%",
+                "y": "0%"
+            },
+            "content": {
+                "ticketStub": {
+                    "pathId": 0,
+                    "fileName": "imnotart/imnotqr.png",
+                    "contentIndex": 0,
+                    "key": "ticketStub",
+                    "extension": "png",
+                    "type": "png",
+                    "ipfsFileName": "0_ticketStub",
+                    "paths": {
+                        "data": "/imgs/content/ticketStub/imnotqr.png",
+                        "uploaded": 1693755456543,
+                        "type": "image/png",
+                        "pathSize": 1,
+                        "fileName": "imnotart/imnotqr.png",
+                        "extension": "png",
+                        "colours": [],
+                        "dontLoad": true,
+                        "dontStore": true,
+                        "projectStorage": false,
+                        "localStorage": true,
+                        "checksum": "90f8726bbffed10b37aed03dd1b67087",
+                        "ipfs": true,
+                        "size": "9402.6",
+                        "cid": "bafybeifkkan3tejzmhlucklogufh5aakug522f3cqatnja5mpq62qdeqmy",
+                        "ipfsURL": "https://dweb.link/ipfs/bafybeifkkan3tejzmhlucklogufh5aakug522f3cqatnja5mpq62qdeqmy/0_ticketStub.png"
+                    }
+                }
+            },
+            "data": {
+                "pom": {
+                    "momentName": "Genesis.ImNotArt.eth",
+                    "ticketStub": "imnotart/imnotqr.png",
+                    "hero": "imnotart/imnothome.jpeg",
+                    "heroPFP": "imnotart/imnotavatar.jpeg",
+                    "heroAvatar": "imnotart/imnotavatar.jpeg",
+                    "heroImage": "imnotart/imnothero.png",
+                    "heroAnimation": "",
+                    "heroVideo": "",
+                    "audio_auralTone": "imnotart/imnotjesus.mp3",
+                    "audio_podcasts": "",
+                    "audio_musics": "imnotart/imnotmusic.mp3",
+                    "audio_clips": "",
+                    "playbill": "",
+                    "roster": "",
+                    "credits": "",
+                    "eventData": "",
+                    "socialTimeCapsule": "",
+                    "eventQuestsAndAchievements": ""
+                },
+                "eGPS": {
+                    "eGPS_locationData": "",
+                    "eGPS_eventMap": "",
+                    "eGPS_eventKey": ""
+                }
+            },
+            "viewbox": "0 0 250 250",
+            "paths": {
+                "data": "/imgs/paths/imnotclub.svg",
+                "uploaded": 1693755449455,
+                "type": "text/plain",
+                "pathSize": 14,
+                "fileName": "imnotart/imnotclub.svg",
+                "extension": "tinysvg",
+                "colours": [
+                    8072727,
+                    13655097,
+                    13655097,
+                    13655097,
+                    13655097,
+                    13655097,
+                    13655097,
+                    8072727,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222
+                ],
+                "dontLoad": false,
+                "dontStore": false,
+                "projectStorage": false,
+                "localStorage": true,
+                "checksum": "dc5228ad06e413869e669474e0936ca6",
+                "ipfs": true,
+                "size": "4.6",
+                "cid": "bafybeia3fxmhkjset2ssfh5f24v3ygh7rundnbflw3xqmbpo4sp7gecxqa",
+                "ipfsURL": "https://dweb.link/ipfs/bafybeia3fxmhkjset2ssfh5f24v3ygh7rundnbflw3xqmbpo4sp7gecxqa/0.tinysvg"
+            },
+            "pathSize": 14,
+            "pathId": 0
+        },
+        "1": {
+            "fileName": "imnotart/imnotcreator.svg",
+            "rarity": 100,
+            "name": "🧱🎨 Creator",
+            "padding": "0%",
+            "innerPadding": "0%",
+            "hideSecondBorder": false,
+            "heightScale": 1.414196123147092,
+            "translate": {
+                "x": "0%",
+                "y": "0%"
+            },
+            "content": {
+                "ticketStub": {
+                    "pathId": 1,
+                    "fileName": "imnotart/imnotqr.png",
+                    "contentIndex": 0,
+                    "key": "ticketStub",
+                    "extension": "png",
+                    "type": "png",
+                    "ipfsFileName": "0_ticketStub",
+                    "paths": {
+                        "data": "/imgs/content/ticketStub/imnotqr.png",
+                        "uploaded": 1693755456543,
+                        "type": "image/png",
+                        "pathSize": 1,
+                        "fileName": "imnotart/imnotqr.png",
+                        "extension": "png",
+                        "colours": [],
+                        "dontLoad": true,
+                        "dontStore": true,
+                        "projectStorage": false,
+                        "localStorage": true,
+                        "checksum": "90f8726bbffed10b37aed03dd1b67087",
+                        "ipfs": true,
+                        "size": "9402.6",
+                        "cid": "bafybeifkkan3tejzmhlucklogufh5aakug522f3cqatnja5mpq62qdeqmy",
+                        "ipfsURL": "https://dweb.link/ipfs/bafybeifkkan3tejzmhlucklogufh5aakug522f3cqatnja5mpq62qdeqmy/0_ticketStub.png"
+                    }
+                }
+            },
+            "data": {
+                "pom": {
+                    "momentName": "Genesis.ImNotArt.eth",
+                    "ticketStub": "imnotart/imnotqr.png",
+                    "hero": "imnotart/imnothome.jpeg",
+                    "heroPFP": "imnotart/imnotavatar.jpeg",
+                    "heroAvatar": "imnotart/imnotavatar.jpeg",
+                    "heroImage": "imnotart/imnothero.png",
+                    "heroAnimation": "",
+                    "heroVideo": "",
+                    "audio_auralTone": "imnotart/imnotjesus.mp3",
+                    "audio_podcasts": "",
+                    "audio_musics": "imnotart/imnotmusic.mp3",
+                    "audio_clips": "",
+                    "playbill": "",
+                    "roster": "",
+                    "credits": "",
+                    "eventData": "",
+                    "socialTimeCapsule": "",
+                    "eventQuestsAndAchievements": ""
+                },
+                "eGPS": {
+                    "eGPS_locationData": "",
+                    "eGPS_eventMap": "",
+                    "eGPS_eventKey": ""
+                }
+            },
+            "viewbox": "0 0 250 250",
+            "paths": {
+                "data": "/imgs/paths/imnotcreator.svg",
+                "uploaded": 1693755451534,
+                "type": "text/plain",
+                "pathSize": 208,
+                "fileName": "imnotart/imnotcreator.svg",
+                "extension": "tinysvg",
+                "colours": [
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    14395212,
+                    14395212,
+                    14064171,
+                    5580297,
+                    14395212,
+                    13537570,
+                    12813327,
+                    10052137,
+                    5580297,
+                    14790742,
+                    10052137,
+                    14064956,
+                    13537570,
+                    10052137,
+                    14790742,
+                    13537570,
+                    14790742,
+                    14064956,
+                    13537570,
+                    14395212,
+                    14395212,
+                    14064171,
+                    14790742,
+                    10052137,
+                    14395212,
+                    14064171,
+                    14064956,
+                    14064171,
+                    10052137,
+                    13537570,
+                    10052137,
+                    14064956,
+                    14395212,
+                    14790742,
+                    14790742,
+                    14064171,
+                    14790742,
+                    14790742,
+                    10052137,
+                    14395212,
+                    14064956,
+                    14790742,
+                    14395212,
+                    14790742,
+                    14064956,
+                    14790742,
+                    14790742,
+                    14790742,
+                    14790742,
+                    14064171,
+                    14790742,
+                    14064956,
+                    14064956,
+                    14790742,
+                    14790742,
+                    14064956,
+                    14064956,
+                    14790742,
+                    10052137,
+                    14790742,
+                    14064956,
+                    14064171,
+                    14790742,
+                    14064956,
+                    14790742,
+                    16711423,
+                    14790742,
+                    13537570,
+                    12813327,
+                    13537570,
+                    13537570,
+                    10052137,
+                    14064956,
+                    14064956,
+                    14064956,
+                    14064171,
+                    12813327,
+                    14064171,
+                    13537570,
+                    13537570,
+                    14790742,
+                    16711423,
+                    10052137,
+                    10052137,
+                    13537570,
+                    10052137,
+                    14395212,
+                    14064171,
+                    13537570,
+                    13537570,
+                    14395212,
+                    13537570,
+                    13537570,
+                    14395212,
+                    14064171,
+                    13537570,
+                    14395212,
+                    13537570,
+                    14064171,
+                    14395212,
+                    10052137,
+                    14064171,
+                    10052137,
+                    13537570,
+                    14064171,
+                    13537570,
+                    14395212,
+                    14064171,
+                    14064171,
+                    13537570,
+                    14395212,
+                    14395212,
+                    13537570,
+                    14064171,
+                    5779116,
+                    14064171,
+                    14064171,
+                    14395212,
+                    14395212,
+                    14064956,
+                    16711423,
+                    5580297,
+                    14395212,
+                    14395212,
+                    10052137,
+                    10052137,
+                    10052137,
+                    14395212,
+                    14395212,
+                    10052137,
+                    10052137,
+                    10052137,
+                    10052137,
+                    10052137,
+                    10052137,
+                    14064171,
+                    13537570,
+                    13537570,
+                    14064171,
+                    14395212,
+                    14395212,
+                    14395212,
+                    14395212,
+                    14790742,
+                    14790742,
+                    14790742,
+                    14790742,
+                    13537570,
+                    12813327,
+                    14064171,
+                    14064171,
+                    12813327,
+                    14064171,
+                    14395212,
+                    14064171,
+                    12813327,
+                    14064171,
+                    10052137,
+                    12813327,
+                    12813327,
+                    13537570,
+                    14064956,
+                    14064956,
+                    13537570,
+                    13537570,
+                    10052137,
+                    10052137,
+                    5779116,
+                    10052137,
+                    13537570,
+                    5779116,
+                    10052137,
+                    10052137,
+                    10052137,
+                    10052137,
+                    10052137,
+                    14064956,
+                    10052137,
+                    10052137,
+                    10052137,
+                    12813327,
+                    14064956,
+                    14064956,
+                    16339264,
+                    14790742,
+                    16243776,
+                    6216502,
+                    1751057,
+                    10434750,
+                    5779116,
+                    5779116,
+                    5779116,
+                    14790742,
+                    2667237,
+                    1751057,
+                    5779116,
+                    10052137,
+                    13537570,
+                    10434750,
+                    10434750,
+                    10052137,
+                    5779116
+                ],
+                "dontLoad": false,
+                "dontStore": false,
+                "projectStorage": false,
+                "localStorage": true,
+                "checksum": "c04c7d9059a396d7595acc963f487a42",
+                "ipfs": true,
+                "size": "35.8",
+                "cid": "bafybeie4q2f3ys762fihrte5qibr6kdgccb5ufiq76vznc6gnarx6dtkru",
+                "ipfsURL": "https://dweb.link/ipfs/bafybeie4q2f3ys762fihrte5qibr6kdgccb5ufiq76vznc6gnarx6dtkru/1.tinysvg"
+            },
+            "pathSize": 208,
+            "pathId": 1
+        },
+        "2": {
+            "fileName": "imnotart/imnotpartner.svg",
+            "rarity": 100,
+            "name": "🧱💎 Partner",
+            "padding": "0%",
+            "innerPadding": "0%",
+            "hideSecondBorder": false,
+            "heightScale": 1.414196123147092,
+            "translate": {
+                "x": "0%",
+                "y": "0%"
+            },
+            "content": {
+                "ticketStub": {
+                    "pathId": 2,
+                    "fileName": "imnotart/imnotqr.png",
+                    "contentIndex": 0,
+                    "key": "ticketStub",
+                    "extension": "png",
+                    "type": "png",
+                    "ipfsFileName": "0_ticketStub",
+                    "paths": {
+                        "data": "/imgs/content/ticketStub/imnotqr.png",
+                        "uploaded": 1693755456543,
+                        "type": "image/png",
+                        "pathSize": 1,
+                        "fileName": "imnotart/imnotqr.png",
+                        "extension": "png",
+                        "colours": [],
+                        "dontLoad": true,
+                        "dontStore": true,
+                        "projectStorage": false,
+                        "localStorage": true,
+                        "checksum": "90f8726bbffed10b37aed03dd1b67087",
+                        "ipfs": true,
+                        "size": "9402.6",
+                        "cid": "bafybeifkkan3tejzmhlucklogufh5aakug522f3cqatnja5mpq62qdeqmy",
+                        "ipfsURL": "https://dweb.link/ipfs/bafybeifkkan3tejzmhlucklogufh5aakug522f3cqatnja5mpq62qdeqmy/0_ticketStub.png"
+                    }
+                }
+            },
+            "data": {
+                "pom": {
+                    "momentName": "Genesis.ImNotArt.eth",
+                    "ticketStub": "imnotart/imnotqr.png",
+                    "hero": "imnotart/imnothome.jpeg",
+                    "heroPFP": "imnotart/imnotavatar.jpeg",
+                    "heroAvatar": "imnotart/imnotavatar.jpeg",
+                    "heroImage": "imnotart/imnothero.png",
+                    "heroAnimation": "",
+                    "heroVideo": "",
+                    "audio_auralTone": "imnotart/imnotjesus.mp3",
+                    "audio_podcasts": "",
+                    "audio_musics": "imnotart/imnotmusic.mp3",
+                    "audio_clips": "",
+                    "playbill": "",
+                    "roster": "",
+                    "credits": "",
+                    "eventData": "",
+                    "socialTimeCapsule": "",
+                    "eventQuestsAndAchievements": ""
+                },
+                "eGPS": {
+                    "eGPS_locationData": "",
+                    "eGPS_eventMap": "",
+                    "eGPS_eventKey": ""
+                }
+            },
+            "viewbox": "0 0 250 250",
+            "paths": {
+                "data": "/imgs/paths/imnotpartner.svg",
+                "uploaded": 1693755453292,
+                "type": "text/plain",
+                "pathSize": 70,
+                "fileName": "imnotart/imnotpartner.svg",
+                "extension": "tinysvg",
+                "colours": [
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    7171437,
+                    11579568,
+                    10395293,
+                    11579568,
+                    11579568,
+                    16777222,
+                    10395293,
+                    10395293,
+                    16777222,
+                    16777222,
+                    16777222,
+                    11579568,
+                    11579568,
+                    10395293,
+                    16777222,
+                    16777222,
+                    10395293,
+                    16777222,
+                    10395293,
+                    16777222,
+                    16777222,
+                    10395293,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    10395293,
+                    16777222,
+                    16777222,
+                    10395293,
+                    16777222,
+                    16777222,
+                    16777222,
+                    10395293,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    10395293,
+                    10395293,
+                    10395293,
+                    11579568,
+                    11579568,
+                    11579568,
+                    11579568,
+                    11579568,
+                    11579568,
+                    11579568,
+                    11579568,
+                    10395293,
+                    16776959,
+                    10395293,
+                    10395293,
+                    11579568,
+                    11579568,
+                    10395293
+                ],
+                "dontLoad": false,
+                "dontStore": false,
+                "projectStorage": false,
+                "localStorage": true,
+                "checksum": "a1e46537c493f5519fd6ac30b68d2adf",
+                "ipfs": true,
+                "size": "10.0",
+                "cid": "bafybeiep2n6phg376y5dk35nxd6sncpip3w23wvhqxiebwk5csu2buvb7u",
+                "ipfsURL": "https://dweb.link/ipfs/bafybeiep2n6phg376y5dk35nxd6sncpip3w23wvhqxiebwk5csu2buvb7u/2.tinysvg"
+            },
+            "pathSize": 70,
+            "pathId": 2
+        },
+        "3": {
+            "fileName": "imnotart/imnotambassador.svg",
+            "rarity": 100,
+            "name": "🧱🛡️ Ambassador",
+            "padding": "0%",
+            "innerPadding": "0%",
+            "hideSecondBorder": false,
+            "heightScale": 1.414196123147092,
+            "translate": {
+                "x": "0%",
+                "y": "0%"
+            },
+            "content": {
+                "ticketStub": {
+                    "pathId": 3,
+                    "fileName": "imnotart/imnotqr.png",
+                    "contentIndex": 0,
+                    "key": "ticketStub",
+                    "extension": "png",
+                    "type": "png",
+                    "ipfsFileName": "0_ticketStub",
+                    "paths": {
+                        "data": "/imgs/content/ticketStub/imnotqr.png",
+                        "uploaded": 1693755456543,
+                        "type": "image/png",
+                        "pathSize": 1,
+                        "fileName": "imnotart/imnotqr.png",
+                        "extension": "png",
+                        "colours": [],
+                        "dontLoad": true,
+                        "dontStore": true,
+                        "projectStorage": false,
+                        "localStorage": true,
+                        "checksum": "90f8726bbffed10b37aed03dd1b67087",
+                        "ipfs": true,
+                        "size": "9402.6",
+                        "cid": "bafybeifkkan3tejzmhlucklogufh5aakug522f3cqatnja5mpq62qdeqmy",
+                        "ipfsURL": "https://dweb.link/ipfs/bafybeifkkan3tejzmhlucklogufh5aakug522f3cqatnja5mpq62qdeqmy/0_ticketStub.png"
+                    }
+                }
+            },
+            "data": {
+                "pom": {
+                    "momentName": "Genesis.ImNotArt.eth",
+                    "ticketStub": "imnotart/imnotqr.png",
+                    "hero": "imnotart/imnothome.jpeg",
+                    "heroPFP": "imnotart/imnotavatar.jpeg",
+                    "heroAvatar": "imnotart/imnotavatar.jpeg",
+                    "heroImage": "imnotart/imnothero.png",
+                    "heroAnimation": "",
+                    "heroVideo": "",
+                    "audio_auralTone": "imnotart/imnotjesus.mp3",
+                    "audio_podcasts": "",
+                    "audio_musics": "imnotart/imnotmusic.mp3",
+                    "audio_clips": "",
+                    "playbill": "",
+                    "roster": "",
+                    "credits": "",
+                    "eventData": "",
+                    "socialTimeCapsule": "",
+                    "eventQuestsAndAchievements": ""
+                },
+                "eGPS": {
+                    "eGPS_locationData": "",
+                    "eGPS_eventMap": "",
+                    "eGPS_eventKey": ""
+                }
+            },
+            "viewbox": "0 0 250 250",
+            "paths": {
+                "data": "/imgs/paths/imnotambassador.svg",
+                "uploaded": 1693755454571,
+                "type": "text/plain",
+                "pathSize": 109,
+                "fileName": "imnotart/imnotambassador.svg",
+                "extension": "tinysvg",
+                "colours": [
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16777222,
+                    16435249,
+                    16701275,
+                    16435249,
+                    15643417,
+                    15643417,
+                    12087297,
+                    14062086,
+                    12087297,
+                    14062086,
+                    14062086,
+                    15643417,
+                    15643417,
+                    16435249,
+                    12087297,
+                    14062086,
+                    14062086,
+                    15643417,
+                    15643417,
+                    14062086,
+                    15643417,
+                    12087297,
+                    12087297,
+                    14062086,
+                    14062086,
+                    12087297,
+                    14062086,
+                    14062086,
+                    15643417,
+                    16701275,
+                    12087297,
+                    15643417,
+                    15643417,
+                    15643417,
+                    15643417,
+                    16435249,
+                    15643417,
+                    12087297,
+                    12087297,
+                    16701275,
+                    14062086,
+                    15643417,
+                    15643417,
+                    16435249,
+                    16435249,
+                    14062086,
+                    12087297,
+                    14062086,
+                    14062086,
+                    14062086,
+                    14062086,
+                    14062086,
+                    14062086,
+                    14062086,
+                    14062086,
+                    15643417,
+                    15643417,
+                    14062086,
+                    15643417,
+                    14062086,
+                    14062086,
+                    14062086,
+                    14062086,
+                    14062086,
+                    14062086,
+                    14062086,
+                    14062086,
+                    14062086,
+                    14062086,
+                    14062086,
+                    14062086,
+                    14062086,
+                    12087297,
+                    16435249,
+                    15643417,
+                    16435249,
+                    15643417,
+                    14062086,
+                    14062086,
+                    14062086,
+                    14062086,
+                    14062086,
+                    14062086,
+                    16435249,
+                    15643417,
+                    15643417,
+                    16435249,
+                    14062086,
+                    16435249,
+                    16435249,
+                    15643417,
+                    15643417,
+                    16435249,
+                    16435249,
+                    15643417,
+                    16435249,
+                    16435249,
+                    16435249,
+                    15643417,
+                    15643417,
+                    15643417,
+                    16435249,
+                    16701275,
+                    16701275
+                ],
+                "dontLoad": false,
+                "dontStore": false,
+                "projectStorage": false,
+                "localStorage": true,
+                "checksum": "9455afaa7f104cdf983acd9dd37fe2e8",
+                "ipfs": true,
+                "size": "11.3",
+                "cid": "bafybeickydlism5wtcowtgrv2ykeupzardtfzaew3rqxowhw22xawunf5e",
+                "ipfsURL": "https://dweb.link/ipfs/bafybeickydlism5wtcowtgrv2ykeupzardtfzaew3rqxowhw22xawunf5e/3.tinysvg"
+            },
+            "pathSize": 109,
+            "pathId": 3
+        },
+        "default": {
+            "fileName": "null",
+            "rarity": 100,
+            "name": "Membership 🧱",
+            "padding": "0%",
+            "innerPadding": "0%",
+            "hideSecondBorder": false,
+            "heightScale": 1.414196123147092,
+            "translate": {
+                "x": "0%",
+                "y": "0%"
+            },
+            "content": {
+                "ticketStub": "imnotart/imnotqr.png"
+            },
+            "data": {
+                "pom": {
+                    "momentName": "Genesis.ImNotArt.eth",
+                    "ticketStub": "imnotart/imnotqr.png",
+                    "hero": "imnotart/imnothome.jpeg",
+                    "heroPFP": "imnotart/imnotavatar.jpeg",
+                    "heroAvatar": "imnotart/imnotavatar.jpeg",
+                    "heroImage": "imnotart/imnothero.png",
+                    "heroAnimation": "",
+                    "heroVideo": "",
+                    "audio_auralTone": "imnotart/imnotjesus.mp3",
+                    "audio_podcasts": "",
+                    "audio_musics": "imnotart/imnotmusic.mp3",
+                    "audio_clips": "",
+                    "playbill": "",
+                    "roster": "",
+                    "credits": "",
+                    "eventData": "",
+                    "socialTimeCapsule": "",
+                    "eventQuestsAndAchievements": ""
+                },
+                "eGPS": {
+                    "eGPS_locationData": "",
+                    "eGPS_eventMap": "",
+                    "eGPS_eventKey": ""
+                }
+            }
+        }
+    },
+    "names": [
+        "ImNotApple",
+        "ImNotBanana",
+        "ImNotOrange",
+        "ImNotGrapes",
+        "ImNotWatermelon",
+        "ImNotMango",
+        "ImNotPineapple",
+        "ImNotStrawberry",
+        "ImNotCherry",
+        "ImNotPeach",
+        "ImNotKiwi",
+        "ImNotPear",
+        "ImNotLemon",
+        "ImNotAvocado",
+        "ImNotCoconut",
+        "ImNotPomegranate",
+        "ImNotGrapefruit",
+        "ImNotBlueberry",
+        "ImNotRaspberry",
+        "ImNotBlackberry",
+        "ImNotPlum",
+        "ImNotApricot",
+        "ImNotFig",
+        "ImNotMelon",
+        "ImNotLime",
+        "ImNotGuava",
+        "ImNotCantaloupe",
+        "ImNotCranberry",
+        "ImNotPapaya",
+        "ImNotPassionfruit",
+        "ImNotLychee",
+        "ImNotDragonfruit",
+        "ImNotMango",
+        "ImNotPersimmon",
+        "ImNotKumquat",
+        "ImNotNectarine",
+        "ImNotQuince",
+        "ImNotPitaya",
+        "ImNotPlantain",
+        "ImNotDurian",
+        "ImNotMulberry",
+        "ImNotHuckleberry",
+        "ImNotGooseberry",
+        "ImNotStarfruit",
+        "ImNotCurrant",
+        "ImNotTangerine",
+        "ImNotAcai",
+        "ImNotBoysenberry",
+        "ImNotElderberry",
+        "ImNotJujube",
+        "ImNotSoursop",
+        "ImNotRambutan",
+        "ImNotCarambola",
+        "ImNotSalak",
+        "ImNotBilberry",
+        "ImNotMiraclefruit",
+        "ImNotClementine",
+        "ImNotCustardapple",
+        "ImNotGuanabana",
+        "ImNotBreadfruit",
+        "ImNotUgli",
+        "ImNotYuzu",
+        "ImNotFeijoa",
+        "ImNotSapodilla",
+        "ImNotJabuticaba",
+        "ImNotPawpaw",
+        "ImNotChayote",
+        "ImNotPricklypear",
+        "ImNotPhysalis",
+        "ImNotMangosteen",
+        "ImNotAckee",
+        "ImNotSquash",
+        "ImNotLingonberry",
+        "ImNotPitanga",
+        "ImNotMarang",
+        "ImNotCherimoya",
+        "ImNotSalmonberry",
+        "ImNotSaskatoonberry",
+        "ImNotTamarillo",
+        "ImNotPepino",
+        "ImNotKeiapple",
+        "ImNotBael",
+        "ImNotFeijoa",
+        "ImNotYumberry",
+        "ImNotKiwano",
+        "ImNotJavaapple",
+        "ImNotCloudberry",
+        "ImNotBilimbi",
+        "ImNotLoquat",
+        "ImNotKiwiberry",
+        "ImNotCupuacu",
+        "ImNotCalamondin",
+        "ImNotSurinamcherry",
+        "ImNotYangmei",
+        "ImNotKiwifruit",
+        "ImNotAcerola",
+        "ImNotBarbadoscherry",
+        "ImNotNance",
+        "ImNotLangsat",
+        "ImNotBignay",
+        "ImNotSeabuckthorn",
+        "ImNotWampee",
+        "ImNotMamey",
+        "ImNotKandis",
+        "ImNotSantol",
+        "ImNotKabosu",
+        "ImNotTamarind",
+        "ImNotFingerlime",
+        "ImNotSapote",
+        "ImNotRoselle",
+        "ImNotChokeberry",
+        "ImNotRowanberry",
+        "ImNot🍎",
+        "ImNot🍌",
+        "ImNot🍊",
+        "ImNot🍇",
+        "ImNot🍉",
+        "ImNot🍈",
+        "ImNot🍍",
+        "ImNot🍓",
+        "ImNot🍒",
+        "ImNot🍑",
+        "ImNot🥝",
+        "ImNot🍐",
+        "ImNot🍋",
+        "ImNot🥑",
+        "ImNot🥥",
+        "ImNot🍆",
+        "ImNot🥭",
+        "ImNot🍅",
+        "ImNot🍎",
+        "ImNot🍏",
+        "ImNot🍐",
+        "ImNot🍑",
+        "ImNot🍒",
+        "ImNot🍓",
+        "ImNot🥝",
+        "ImNot🍅",
+        "ImNot🥥",
+        "ImNot🥭",
+        "ImNot🍆",
+        "ImNot🥑",
+        "ImNot🍍",
+        "ImNot🥥",
+        "ImNot🌽",
+        "ImNot🌶️",
+        "ImNot🥒",
+        "ImNot🥬",
+        "ImNot🥦",
+        "ImNot🧄",
+        "ImNot🧅",
+        "ImNot🥔",
+        "ImNot🍠",
+        "ImNot🥐",
+        "ImNot🥯",
+        "ImNot🍞",
+        "ImNot🥖",
+        "ImNot🥨",
+        "ImNot🧀",
+        "ImNot🥚",
+        "ImNot🥓",
+        "ImNot🥞",
+        "ImNot🧇",
+        "ImNot🥩",
+        "ImNot🍗",
+        "ImNot🍖",
+        "ImNot🦴",
+        "ImNot🌭",
+        "ImNot🍔",
+        "ImNot🍟",
+        "ImNot🍕",
+        "ImNot🥪",
+        "ImNot🥙",
+        "ImNot🧆",
+        "ImNot🌮",
+        "ImNot🌯",
+        "ImNot🥗",
+        "ImNot🥘",
+        "ImNot🥫",
+        "ImNot🍝",
+        "ImNot🍜",
+        "ImNot🍲",
+        "ImNot🍛",
+        "ImNot🍣",
+        "ImNot🍱",
+        "ImNot🥟",
+        "ImNot🍤",
+        "ImNot🍙",
+        "ImNot🍚",
+        "ImNot🍘",
+        "ImNot🍥",
+        "ImNot🥠",
+        "ImNot🥮",
+        "ImNot🍢",
+        "ImNot🍡",
+        "ImNot🍧",
+        "ImNot🍨",
+        "ImNot🍦",
+        "ImNot🥧",
+        "ImNot🧁",
+        "ImNot🍰",
+        "ImNot🎂",
+        "ImNot🍮",
+        "ImNot🍭",
+        "ImNot🍬",
+        "ImNot🍫",
+        "ImNot🍿",
+        "ImNot🍩",
+        "ImNot🍪",
+        "ImNot🌰",
+        "ImNot🥜",
+        "ImNot🍯",
+        "ImNot🥛",
+        "ImNot☕",
+        "ImNot🍵",
+        "ImNot🧃",
+        "ImNot🥤",
+        "ImNot🧉",
+        "ImNot🍶",
+        "ImNot🍺",
+        "ImNot🍻",
+        "ImNot🥂",
+        "ImNot🍷",
+        "ImNot🥃",
+        "ImNot🍸",
+        "ImNot🍹",
+        "ImNot🧊",
+        "ImNot🍾",
+        "ImNot🍽️",
+        "ImNot🍴",
+        "ImNot🥄",
+        "ImNot🔪",
+        "ImNot🏺",
+        "ImNot🧂"
+    ],
+    "assets": {},
+    "assetConfig": {},
+    "modules": {
+        "controller": "SimpleSVG",
+        "minter": "DefaultMinter",
+        "random": "UnsafeRandom",
+        "royalty": "SplitRoyalty",
+        "renderScript": "Vector",
+        "linker": "InfinityMintLinker"
+    },
+    "mods": {
+        "redemption": true,
+        "marketplace": true,
+        "multimint": true,
+        "flagsExtended": true
+    },
+    "errors": {},
+    "network": {
+        "chainId": 1337,
+        "name": "ganache"
+    },
+    "id": "db9fee9f-31f6-44c1-a9db-3186c33dbaa0",
+    "stages": {},
+    "deployedMods": {
+        "flagsExtended": {
+            "manifest": {
+                "name": "Flags Extended",
+                "author": "0xTinman.eth",
+                "description": "A mod which improves the UI and functionality of the token flag and address option system. Users can see the flags they have set for each token and options they have set which effect the whole mint.",
+                "version": 1,
+                "dependencies": []
+            },
+            "loaded": 1693764658593,
+            "path": "mods/flagsExtended/",
+            "name": "flagsExtended",
+            "enabled": true,
+            "contracts": {
+                "Mod_FlagManager": "0x5ffa147c82a115FD4b66B67a2d6ad7fea6666DAC"
+            },
+            "receipts": [
+                {
+                    "_format": "hh-sol-artifact-1",
+                    "contractName": "Mod_FlagManager",
+                    "sourceName": "contracts/__mods/FlagManager.sol",
+                    "abi": {},
+                    "bytecode": 0,
+                    "deployedBytecode": 0,
+                    "linkReferences": {},
+                    "deployedLinkReferences": {},
+                    "devdoc": {
+                        "kind": "dev",
+                        "methods": {},
+                        "version": 1
+                    },
+                    "evm": {},
+                    "metadata": "",
+                    "storageLayout": {
+                        "storage": [
+                            {
+                                "astId": 16908,
+                                "contract": "contracts/__mods/FlagManager.sol:Mod_FlagManager",
+                                "label": "deployer",
+                                "offset": 0,
+                                "slot": "0",
+                                "type": "t_address"
+                            },
+                            {
+                                "astId": 16911,
+                                "contract": "contracts/__mods/FlagManager.sol:Mod_FlagManager",
+                                "label": "executionCount",
+                                "offset": 0,
+                                "slot": "1",
+                                "type": "t_uint256"
+                            },
+                            {
+                                "astId": 16913,
+                                "contract": "contracts/__mods/FlagManager.sol:Mod_FlagManager",
+                                "label": "approvalCount",
+                                "offset": 0,
+                                "slot": "2",
+                                "type": "t_uint256"
+                            },
+                            {
+                                "astId": 16917,
+                                "contract": "contracts/__mods/FlagManager.sol:Mod_FlagManager",
+                                "label": "approved",
+                                "offset": 0,
+                                "slot": "3",
+                                "type": "t_mapping(t_address,t_bool)"
+                            },
+                            {
+                                "astId": 8730,
+                                "contract": "contracts/__mods/FlagManager.sol:Mod_FlagManager",
+                                "label": "erc721",
+                                "offset": 0,
+                                "slot": "4",
+                                "type": "t_contract(InfinityMint)19351"
+                            },
+                            {
+                                "astId": 8733,
+                                "contract": "contracts/__mods/FlagManager.sol:Mod_FlagManager",
+                                "label": "storageController",
+                                "offset": 0,
+                                "slot": "5",
+                                "type": "t_contract(InfinityMintStorage)21181"
+                            }
+                        ],
+                        "types": {
+                            "t_address": {
+                                "encoding": "inplace",
+                                "label": "address",
+                                "numberOfBytes": "20"
+                            },
+                            "t_bool": {
+                                "encoding": "inplace",
+                                "label": "bool",
+                                "numberOfBytes": "1"
+                            },
+                            "t_contract(InfinityMint)19351": {
+                                "encoding": "inplace",
+                                "label": "contract InfinityMint",
+                                "numberOfBytes": "20"
+                            },
+                            "t_contract(InfinityMintStorage)21181": {
+                                "encoding": "inplace",
+                                "label": "contract InfinityMintStorage",
+                                "numberOfBytes": "20"
+                            },
+                            "t_mapping(t_address,t_bool)": {
+                                "encoding": "mapping",
+                                "key": "t_address",
+                                "label": "mapping(address => bool)",
+                                "numberOfBytes": "32",
+                                "value": "t_bool"
+                            },
+                            "t_uint256": {
+                                "encoding": "inplace",
+                                "label": "uint256",
+                                "numberOfBytes": "32"
+                            }
+                        }
+                    },
+                    "userdoc": {
+                        "kind": "user",
+                        "methods": {},
+                        "version": 1
+                    },
+                    "solcInput": "",
+                    "solcInputHash": "521228c6fafa0ebf46fee967aadc24d7",
+                    "transactionHash": "0x0929933a4ce3bbb4e99c2ce80afed3ec8010549985dbf902f462a7989456e84b",
+                    "args": [
+                        "0x78BD89a79b830De5622E5B16a0eb257732009e16",
+                        "0x4DF745a640aD67ab3c5B1Ab66042e26d33Cac40B"
+                    ],
+                    "address": "0x5ffa147c82a115FD4b66B67a2d6ad7fea6666DAC",
+                    "receipt": {
+                        "to": null,
+                        "from": "0xB3C4Ae073f668242CFfF53157E26d10099f797e8",
+                        "contractAddress": "0x5ffa147c82a115FD4b66B67a2d6ad7fea6666DAC",
+                        "transactionIndex": 0,
+                        "gasUsed": {
+                            "type": "BigNumber",
+                            "hex": "0x0e1d83"
+                        },
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockHash": "0x284aec3ee387a8025f7b525ee9b5b6b8c8c9629eb7ef0965ece075da1aaca0ff",
+                        "transactionHash": "0x0929933a4ce3bbb4e99c2ce80afed3ec8010549985dbf902f462a7989456e84b",
+                        "logs": [],
+                        "blockNumber": 125,
+                        "confirmations": 1,
+                        "cumulativeGasUsed": {
+                            "type": "BigNumber",
+                            "hex": "0x0e1d83"
+                        },
+                        "effectiveGasPrice": {
+                            "type": "BigNumber",
+                            "hex": "0x028fa6ae00"
+                        },
+                        "status": 1,
+                        "type": 0,
+                        "byzantium": true
+                    },
+                    "libraries": {
+                        "InfinityMintUtil": "0xc94c2F24693a4B13410524A5f75091d49aeeCB4e"
+                    },
+                    "newlyDeployed": true
+                }
+            ]
+        },
+        "marketplace": {
+            "manifest": {
+                "name": "🏴‍☠️Sea.eth Marketplace Gem",
+                "author": "0xTinman.eth, 0xTinman.eth",
+                "description": "Enables decentalized marketplace functionality for your ♾️Mint",
+                "version": 1,
+                "dependencies": []
+            },
+            "loaded": 1693764658593,
+            "path": "mods/marketplace/",
+            "name": "marketplace",
+            "enabled": true,
+            "setupMethod": null,
+            "contracts": {
+                "Mod_Marketplace": "0x1269452E397De1361998eB8EF2c4560C91c48d08"
+            },
+            "receipts": [
+                {
+                    "_format": "hh-sol-artifact-1",
+                    "contractName": "Mod_Marketplace",
+                    "sourceName": "contracts/__mods/Marketplace.sol",
+                    "abi": {},
+                    "bytecode": 0,
+                    "deployedBytecode": 0,
+                    "linkReferences": {},
+                    "deployedLinkReferences": {},
+                    "devdoc": {
+                        "kind": "dev",
+                        "methods": {},
+                        "version": 1
+                    },
+                    "evm": {},
+                    "metadata": "",
+                    "storageLayout": {
+                        "storage": [
+                            {
+                                "astId": 8865,
+                                "contract": "contracts/__mods/Marketplace.sol:Mod_Marketplace",
+                                "label": "infinityMint",
+                                "offset": 0,
+                                "slot": "0",
+                                "type": "t_address"
+                            },
+                            {
+                                "astId": 8885,
+                                "contract": "contracts/__mods/Marketplace.sol:Mod_Marketplace",
+                                "label": "executionCount",
+                                "offset": 0,
+                                "slot": "1",
+                                "type": "t_uint256"
+                            },
+                            {
+                                "astId": 8892,
+                                "contract": "contracts/__mods/Marketplace.sol:Mod_Marketplace",
+                                "label": "tokenOffers",
+                                "offset": 0,
+                                "slot": "2",
+                                "type": "t_mapping(t_uint32,t_mapping(t_address,t_struct(OfferObject)8872_storage))"
+                            },
+                            {
+                                "astId": 8897,
+                                "contract": "contracts/__mods/Marketplace.sol:Mod_Marketplace",
+                                "label": "userOffers",
+                                "offset": 0,
+                                "slot": "3",
+                                "type": "t_mapping(t_uint32,t_array(t_address)dyn_storage)"
+                            },
+                            {
+                                "astId": 8902,
+                                "contract": "contracts/__mods/Marketplace.sol:Mod_Marketplace",
+                                "label": "transfers",
+                                "offset": 0,
+                                "slot": "4",
+                                "type": "t_mapping(t_uint32,t_struct(TransferObject)8883_storage)"
+                            }
+                        ],
+                        "types": {
+                            "t_address": {
+                                "encoding": "inplace",
+                                "label": "address",
+                                "numberOfBytes": "20"
+                            },
+                            "t_array(t_address)dyn_storage": {
+                                "base": "t_address",
+                                "encoding": "dynamic_array",
+                                "label": "address[]",
+                                "numberOfBytes": "32"
+                            },
+                            "t_bool": {
+                                "encoding": "inplace",
+                                "label": "bool",
+                                "numberOfBytes": "1"
+                            },
+                            "t_mapping(t_address,t_struct(OfferObject)8872_storage)": {
+                                "encoding": "mapping",
+                                "key": "t_address",
+                                "label": "mapping(address => struct Mod_Marketplace.OfferObject)",
+                                "numberOfBytes": "32",
+                                "value": "t_struct(OfferObject)8872_storage"
+                            },
+                            "t_mapping(t_uint32,t_array(t_address)dyn_storage)": {
+                                "encoding": "mapping",
+                                "key": "t_uint32",
+                                "label": "mapping(uint32 => address[])",
+                                "numberOfBytes": "32",
+                                "value": "t_array(t_address)dyn_storage"
+                            },
+                            "t_mapping(t_uint32,t_mapping(t_address,t_struct(OfferObject)8872_storage))": {
+                                "encoding": "mapping",
+                                "key": "t_uint32",
+                                "label": "mapping(uint32 => mapping(address => struct Mod_Marketplace.OfferObject))",
+                                "numberOfBytes": "32",
+                                "value": "t_mapping(t_address,t_struct(OfferObject)8872_storage)"
+                            },
+                            "t_mapping(t_uint32,t_struct(TransferObject)8883_storage)": {
+                                "encoding": "mapping",
+                                "key": "t_uint32",
+                                "label": "mapping(uint32 => struct Mod_Marketplace.TransferObject)",
+                                "numberOfBytes": "32",
+                                "value": "t_struct(TransferObject)8883_storage"
+                            },
+                            "t_struct(OfferObject)8872_storage": {
+                                "encoding": "inplace",
+                                "label": "struct Mod_Marketplace.OfferObject",
+                                "members": [
+                                    {
+                                        "astId": 8867,
+                                        "contract": "contracts/__mods/Marketplace.sol:Mod_Marketplace",
+                                        "label": "sender",
+                                        "offset": 0,
+                                        "slot": "0",
+                                        "type": "t_address"
+                                    },
+                                    {
+                                        "astId": 8869,
+                                        "contract": "contracts/__mods/Marketplace.sol:Mod_Marketplace",
+                                        "label": "tokenId",
+                                        "offset": 0,
+                                        "slot": "1",
+                                        "type": "t_uint256"
+                                    },
+                                    {
+                                        "astId": 8871,
+                                        "contract": "contracts/__mods/Marketplace.sol:Mod_Marketplace",
+                                        "label": "value",
+                                        "offset": 0,
+                                        "slot": "2",
+                                        "type": "t_uint256"
+                                    }
+                                ],
+                                "numberOfBytes": "96"
+                            },
+                            "t_struct(TransferObject)8883_storage": {
+                                "encoding": "inplace",
+                                "label": "struct Mod_Marketplace.TransferObject",
+                                "members": [
+                                    {
+                                        "astId": 8874,
+                                        "contract": "contracts/__mods/Marketplace.sol:Mod_Marketplace",
+                                        "label": "tokenId",
+                                        "offset": 0,
+                                        "slot": "0",
+                                        "type": "t_uint256"
+                                    },
+                                    {
+                                        "astId": 8876,
+                                        "contract": "contracts/__mods/Marketplace.sol:Mod_Marketplace",
+                                        "label": "from",
+                                        "offset": 0,
+                                        "slot": "1",
+                                        "type": "t_address"
+                                    },
+                                    {
+                                        "astId": 8878,
+                                        "contract": "contracts/__mods/Marketplace.sol:Mod_Marketplace",
+                                        "label": "to",
+                                        "offset": 0,
+                                        "slot": "2",
+                                        "type": "t_address"
+                                    },
+                                    {
+                                        "astId": 8880,
+                                        "contract": "contracts/__mods/Marketplace.sol:Mod_Marketplace",
+                                        "label": "value",
+                                        "offset": 0,
+                                        "slot": "3",
+                                        "type": "t_uint256"
+                                    },
+                                    {
+                                        "astId": 8882,
+                                        "contract": "contracts/__mods/Marketplace.sol:Mod_Marketplace",
+                                        "label": "hasTransfer",
+                                        "offset": 0,
+                                        "slot": "4",
+                                        "type": "t_bool"
+                                    }
+                                ],
+                                "numberOfBytes": "160"
+                            },
+                            "t_uint256": {
+                                "encoding": "inplace",
+                                "label": "uint256",
+                                "numberOfBytes": "32"
+                            },
+                            "t_uint32": {
+                                "encoding": "inplace",
+                                "label": "uint32",
+                                "numberOfBytes": "4"
+                            }
+                        }
+                    },
+                    "userdoc": {
+                        "kind": "user",
+                        "methods": {},
+                        "version": 1
+                    },
+                    "solcInput": "",
+                    "solcInputHash": "521228c6fafa0ebf46fee967aadc24d7",
+                    "transactionHash": "0x0bb67d6ce90d270577b14e8e964d43c98c692b4d00c2ebe58cbfe9e353926050",
+                    "args": [
+                        "0x78BD89a79b830De5622E5B16a0eb257732009e16"
+                    ],
+                    "address": "0x1269452E397De1361998eB8EF2c4560C91c48d08",
+                    "receipt": {
+                        "to": null,
+                        "from": "0xB3C4Ae073f668242CFfF53157E26d10099f797e8",
+                        "contractAddress": "0x1269452E397De1361998eB8EF2c4560C91c48d08",
+                        "transactionIndex": 0,
+                        "gasUsed": {
+                            "type": "BigNumber",
+                            "hex": "0x11888d"
+                        },
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockHash": "0xf911f0be7cf4982e94622e3db195ba169314d3bd56c08f2b4ccfff9fe44efec0",
+                        "transactionHash": "0x0bb67d6ce90d270577b14e8e964d43c98c692b4d00c2ebe58cbfe9e353926050",
+                        "logs": [],
+                        "blockNumber": 126,
+                        "confirmations": 1,
+                        "cumulativeGasUsed": {
+                            "type": "BigNumber",
+                            "hex": "0x11888d"
+                        },
+                        "effectiveGasPrice": {
+                            "type": "BigNumber",
+                            "hex": "0x028fa6ae00"
+                        },
+                        "status": 1,
+                        "type": 0,
+                        "byzantium": true
+                    },
+                    "libraries": {
+                        "InfinityMintUtil": "0xc94c2F24693a4B13410524A5f75091d49aeeCB4e"
+                    },
+                    "newlyDeployed": true
+                }
+            ]
+        },
+        "multimint": {
+            "manifest": {
+                "name": "♾️MultiMinter",
+                "title": "♾️MultiMinter",
+                "author": "0xTinman.eth, 0xWizardof0z.eth",
+                "description": "Adds more minting options to your ♾️Mint. It also allows you to add embedded minters so you can offer tiered mints, service mints and more.",
+                "version": 1
+            },
+            "loaded": 1693764658594,
+            "path": "mods/multimint/",
+            "name": "multimint",
+            "enabled": true,
+            "contracts": {
+                "Mod_SelectiveMint": "0xcc0a9eFa245C53333ae82A42a2FA1134b66AeE8D",
+                "Mod_MultiMinterOracle": "0xc9c4b1A095C0b19fE48c82B463c0206124aF9D30"
+            },
+            "receipts": [
+                {
+                    "_format": "hh-sol-artifact-1",
+                    "contractName": "Mod_SelectiveMint",
+                    "sourceName": "contracts/__mods/SelectiveMint.sol",
+                    "abi": {},
+                    "bytecode": 0,
+                    "deployedBytecode": 0,
+                    "linkReferences": {},
+                    "deployedLinkReferences": {},
+                    "devdoc": {
+                        "kind": "dev",
+                        "methods": {},
+                        "version": 1
+                    },
+                    "evm": {},
+                    "metadata": "",
+                    "storageLayout": {
+                        "storage": [
+                            {
+                                "astId": 458,
+                                "contract": "contracts/__mods/SelectiveMint.sol:Mod_SelectiveMint",
+                                "label": "deployer",
+                                "offset": 0,
+                                "slot": "0",
+                                "type": "t_address"
+                            },
+                            {
+                                "astId": 461,
+                                "contract": "contracts/__mods/SelectiveMint.sol:Mod_SelectiveMint",
+                                "label": "executionCount",
+                                "offset": 0,
+                                "slot": "1",
+                                "type": "t_uint256"
+                            },
+                            {
+                                "astId": 465,
+                                "contract": "contracts/__mods/SelectiveMint.sol:Mod_SelectiveMint",
+                                "label": "approved",
+                                "offset": 0,
+                                "slot": "2",
+                                "type": "t_mapping(t_address,t_bool)"
+                            },
+                            {
+                                "astId": 11313,
+                                "contract": "contracts/__mods/SelectiveMint.sol:Mod_SelectiveMint",
+                                "label": "assetController",
+                                "offset": 0,
+                                "slot": "3",
+                                "type": "t_contract(InfinityMintAsset)4558"
+                            },
+                            {
+                                "astId": 11316,
+                                "contract": "contracts/__mods/SelectiveMint.sol:Mod_SelectiveMint",
+                                "label": "erc721",
+                                "offset": 0,
+                                "slot": "4",
+                                "type": "t_contract(InfinityMint)2599"
+                            },
+                            {
+                                "astId": 11319,
+                                "contract": "contracts/__mods/SelectiveMint.sol:Mod_SelectiveMint",
+                                "label": "randomNumberController",
+                                "offset": 0,
+                                "slot": "5",
+                                "type": "t_contract(RandomNumber)7944"
+                            },
+                            {
+                                "astId": 11322,
+                                "contract": "contracts/__mods/SelectiveMint.sol:Mod_SelectiveMint",
+                                "label": "valuesController",
+                                "offset": 0,
+                                "slot": "6",
+                                "type": "t_contract(InfinityMintValues)7070"
+                            },
+                            {
+                                "astId": 11325,
+                                "contract": "contracts/__mods/SelectiveMint.sol:Mod_SelectiveMint",
+                                "label": "royaltyController",
+                                "offset": 0,
+                                "slot": "7",
+                                "type": "t_contract(Royalty)8132"
+                            }
+                        ],
+                        "types": {
+                            "t_address": {
+                                "encoding": "inplace",
+                                "label": "address",
+                                "numberOfBytes": "20"
+                            },
+                            "t_bool": {
+                                "encoding": "inplace",
+                                "label": "bool",
+                                "numberOfBytes": "1"
+                            },
+                            "t_contract(InfinityMint)2599": {
+                                "encoding": "inplace",
+                                "label": "contract InfinityMint",
+                                "numberOfBytes": "20"
+                            },
+                            "t_contract(InfinityMintAsset)4558": {
+                                "encoding": "inplace",
+                                "label": "contract InfinityMintAsset",
+                                "numberOfBytes": "20"
+                            },
+                            "t_contract(InfinityMintValues)7070": {
+                                "encoding": "inplace",
+                                "label": "contract InfinityMintValues",
+                                "numberOfBytes": "20"
+                            },
+                            "t_contract(RandomNumber)7944": {
+                                "encoding": "inplace",
+                                "label": "contract RandomNumber",
+                                "numberOfBytes": "20"
+                            },
+                            "t_contract(Royalty)8132": {
+                                "encoding": "inplace",
+                                "label": "contract Royalty",
+                                "numberOfBytes": "20"
+                            },
+                            "t_mapping(t_address,t_bool)": {
+                                "encoding": "mapping",
+                                "key": "t_address",
+                                "label": "mapping(address => bool)",
+                                "numberOfBytes": "32",
+                                "value": "t_bool"
+                            },
+                            "t_uint256": {
+                                "encoding": "inplace",
+                                "label": "uint256",
+                                "numberOfBytes": "32"
+                            }
+                        }
+                    },
+                    "userdoc": {
+                        "kind": "user",
+                        "methods": {},
+                        "version": 1
+                    },
+                    "solcInput": "",
+                    "solcInputHash": "521228c6fafa0ebf46fee967aadc24d7",
+                    "transactionHash": "0xcfb48356ad640976afe9b8ffb48c7acfe7c80ee423701eb5fa183a3915f9dc6e",
+                    "args": [
+                        "0x78BD89a79b830De5622E5B16a0eb257732009e16",
+                        "0x44CA84470d9C459A93834EF5a810B09Edbf16E60",
+                        "0xd21809ecB3AaD6C6Dd82aAC9C882c49EB0AeC1C4",
+                        "0x730290885d54eedCe8E2A73eeEB0421863F3E457",
+                        "0xcF8501Cb507d7781425f9a308Ee16C31C1e04dE4"
+                    ],
+                    "address": "0xcc0a9eFa245C53333ae82A42a2FA1134b66AeE8D",
+                    "receipt": {
+                        "to": null,
+                        "from": "0xB3C4Ae073f668242CFfF53157E26d10099f797e8",
+                        "contractAddress": "0xcc0a9eFa245C53333ae82A42a2FA1134b66AeE8D",
+                        "transactionIndex": 0,
+                        "gasUsed": {
+                            "type": "BigNumber",
+                            "hex": "0x16e95e"
+                        },
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockHash": "0x3ec835e2ed4a54321566d2d8a4002118de2f39d116f5d43b5d7d6856b6fa0509",
+                        "transactionHash": "0xcfb48356ad640976afe9b8ffb48c7acfe7c80ee423701eb5fa183a3915f9dc6e",
+                        "logs": [],
+                        "blockNumber": 127,
+                        "confirmations": 1,
+                        "cumulativeGasUsed": {
+                            "type": "BigNumber",
+                            "hex": "0x16e95e"
+                        },
+                        "effectiveGasPrice": {
+                            "type": "BigNumber",
+                            "hex": "0x028fa6ae00"
+                        },
+                        "status": 1,
+                        "type": 0,
+                        "byzantium": true
+                    },
+                    "libraries": {},
+                    "newlyDeployed": true
+                },
+                {
+                    "_format": "hh-sol-artifact-1",
+                    "contractName": "Mod_MultiMinterOracle",
+                    "sourceName": "contracts/__mods/MultiMinterOracle.sol",
+                    "abi": {},
+                    "bytecode": 0,
+                    "deployedBytecode": 0,
+                    "linkReferences": {},
+                    "deployedLinkReferences": {},
+                    "devdoc": {
+                        "kind": "dev",
+                        "methods": {},
+                        "version": 1
+                    },
+                    "evm": {},
+                    "metadata": "",
+                    "storageLayout": {
+                        "storage": [
+                            {
+                                "astId": 458,
+                                "contract": "contracts/__mods/MultiMinterOracle.sol:Mod_MultiMinterOracle",
+                                "label": "deployer",
+                                "offset": 0,
+                                "slot": "0",
+                                "type": "t_address"
+                            },
+                            {
+                                "astId": 461,
+                                "contract": "contracts/__mods/MultiMinterOracle.sol:Mod_MultiMinterOracle",
+                                "label": "executionCount",
+                                "offset": 0,
+                                "slot": "1",
+                                "type": "t_uint256"
+                            },
+                            {
+                                "astId": 465,
+                                "contract": "contracts/__mods/MultiMinterOracle.sol:Mod_MultiMinterOracle",
+                                "label": "approved",
+                                "offset": 0,
+                                "slot": "2",
+                                "type": "t_mapping(t_address,t_bool)"
+                            },
+                            {
+                                "astId": 9803,
+                                "contract": "contracts/__mods/MultiMinterOracle.sol:Mod_MultiMinterOracle",
+                                "label": "multiMinters",
+                                "offset": 0,
+                                "slot": "3",
+                                "type": "t_mapping(t_address,t_bool)"
+                            }
+                        ],
+                        "types": {
+                            "t_address": {
+                                "encoding": "inplace",
+                                "label": "address",
+                                "numberOfBytes": "20"
+                            },
+                            "t_bool": {
+                                "encoding": "inplace",
+                                "label": "bool",
+                                "numberOfBytes": "1"
+                            },
+                            "t_mapping(t_address,t_bool)": {
+                                "encoding": "mapping",
+                                "key": "t_address",
+                                "label": "mapping(address => bool)",
+                                "numberOfBytes": "32",
+                                "value": "t_bool"
+                            },
+                            "t_uint256": {
+                                "encoding": "inplace",
+                                "label": "uint256",
+                                "numberOfBytes": "32"
+                            }
+                        }
+                    },
+                    "userdoc": {
+                        "kind": "user",
+                        "methods": {},
+                        "version": 1
+                    },
+                    "solcInput": "",
+                    "solcInputHash": "521228c6fafa0ebf46fee967aadc24d7",
+                    "transactionHash": "0x452562c35dfb81083befaf2e95a38d385a80da248152beccd938088f1e5a6be3",
+                    "args": [],
+                    "address": "0xc9c4b1A095C0b19fE48c82B463c0206124aF9D30",
+                    "receipt": {
+                        "to": null,
+                        "from": "0xB3C4Ae073f668242CFfF53157E26d10099f797e8",
+                        "contractAddress": "0xc9c4b1A095C0b19fE48c82B463c0206124aF9D30",
+                        "transactionIndex": 0,
+                        "gasUsed": {
+                            "type": "BigNumber",
+                            "hex": "0x07dc9e"
+                        },
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockHash": "0x2299fcee58dc96af294704782e6006c0e763bf787aad412d6a482dd44dfe0d52",
+                        "transactionHash": "0x452562c35dfb81083befaf2e95a38d385a80da248152beccd938088f1e5a6be3",
+                        "logs": [],
+                        "blockNumber": 128,
+                        "confirmations": 1,
+                        "cumulativeGasUsed": {
+                            "type": "BigNumber",
+                            "hex": "0x07dc9e"
+                        },
+                        "effectiveGasPrice": {
+                            "type": "BigNumber",
+                            "hex": "0x028fa6ae00"
+                        },
+                        "status": 1,
+                        "type": 0,
+                        "byzantium": true
+                    },
+                    "libraries": {},
+                    "newlyDeployed": true
+                }
+            ]
+        },
+        "redemption": {
+            "manifest": {
+                "name": "🎟️ Redemption Tools",
+                "author": "0x0zAgency",
+                "description": "Offers two forms of redemption for ERC721 tokens. The first method is a passcode (💿Keys.eth) based system which doesn't need any wallets to be set up. The second is classic Merkle Tree requiring addresses.",
+                "version": 1,
+                "production": true,
+                "requirements": {
+                    "version": "hydra"
+                },
+                "dependencies": [
+                    "@openzeppelin/contracts"
+                ]
+            },
+            "loaded": 1693764658595,
+            "path": "mods/redemption/",
+            "name": "redemption",
+            "enabled": true,
+            "contracts": {
+                "Mod_Redemption": "0xB8418AD3108Fa2c39E528907CE7cED8974627d45",
+                "Mod_RedemptionLinker": "0xecEFC279efB68cF71f0ae00f568323E4362AF9b5"
+            },
+            "receipts": [
+                {
+                    "_format": "hh-sol-artifact-1",
+                    "contractName": "Mod_Redemption",
+                    "sourceName": "contracts/__mods/Redemption.sol",
+                    "abi": {},
+                    "bytecode": 0,
+                    "deployedBytecode": 0,
+                    "linkReferences": {
+                        "contracts/InfinityMintUtil.sol": {
+                            "InfinityMintUtil": [
+                                {
+                                    "length": 20,
+                                    "start": 2551
+                                },
+                                {
+                                    "length": 20,
+                                    "start": 4546
+                                }
+                            ]
+                        }
+                    },
+                    "deployedLinkReferences": {
+                        "contracts/InfinityMintUtil.sol": {
+                            "InfinityMintUtil": [
+                                {
+                                    "length": 20,
+                                    "start": 2352
+                                },
+                                {
+                                    "length": 20,
+                                    "start": 4347
+                                }
+                            ]
+                        }
+                    },
+                    "devdoc": {
+                        "kind": "dev",
+                        "methods": {},
+                        "version": 1
+                    },
+                    "evm": {},
+                    "metadata": "",
+                    "storageLayout": {
+                        "storage": [
+                            {
+                                "astId": 458,
+                                "contract": "contracts/__mods/Redemption.sol:Mod_Redemption",
+                                "label": "deployer",
+                                "offset": 0,
+                                "slot": "0",
+                                "type": "t_address"
+                            },
+                            {
+                                "astId": 461,
+                                "contract": "contracts/__mods/Redemption.sol:Mod_Redemption",
+                                "label": "executionCount",
+                                "offset": 0,
+                                "slot": "1",
+                                "type": "t_uint256"
+                            },
+                            {
+                                "astId": 465,
+                                "contract": "contracts/__mods/Redemption.sol:Mod_Redemption",
+                                "label": "approved",
+                                "offset": 0,
+                                "slot": "2",
+                                "type": "t_mapping(t_address,t_bool)"
+                            },
+                            {
+                                "astId": 10160,
+                                "contract": "contracts/__mods/Redemption.sol:Mod_Redemption",
+                                "label": "erc721",
+                                "offset": 0,
+                                "slot": "3",
+                                "type": "t_contract(IERC721)1479"
+                            },
+                            {
+                                "astId": 10164,
+                                "contract": "contracts/__mods/Redemption.sol:Mod_Redemption",
+                                "label": "activeRedemptions",
+                                "offset": 0,
+                                "slot": "4",
+                                "type": "t_mapping(t_uint256,t_bytes_storage)"
+                            },
+                            {
+                                "astId": 10169,
+                                "contract": "contracts/__mods/Redemption.sol:Mod_Redemption",
+                                "label": "requests",
+                                "offset": 0,
+                                "slot": "5",
+                                "type": "t_mapping(t_uint256,t_struct(Request)10191_storage)"
+                            },
+                            {
+                                "astId": 10174,
+                                "contract": "contracts/__mods/Redemption.sol:Mod_Redemption",
+                                "label": "successfulRedemptions",
+                                "offset": 0,
+                                "slot": "6",
+                                "type": "t_mapping(t_uint256,t_struct(SuccessfulRedemption)10202_storage)"
+                            },
+                            {
+                                "astId": 10178,
+                                "contract": "contracts/__mods/Redemption.sol:Mod_Redemption",
+                                "label": "requestCount",
+                                "offset": 0,
+                                "slot": "7",
+                                "type": "t_mapping(t_address,t_uint256)"
+                            },
+                            {
+                                "astId": 10182,
+                                "contract": "contracts/__mods/Redemption.sol:Mod_Redemption",
+                                "label": "blockedWallets",
+                                "offset": 0,
+                                "slot": "8",
+                                "type": "t_mapping(t_address,t_bool)"
+                            }
+                        ],
+                        "types": {
+                            "t_address": {
+                                "encoding": "inplace",
+                                "label": "address",
+                                "numberOfBytes": "20"
+                            },
+                            "t_bool": {
+                                "encoding": "inplace",
+                                "label": "bool",
+                                "numberOfBytes": "1"
+                            },
+                            "t_bytes_storage": {
+                                "encoding": "bytes",
+                                "label": "bytes",
+                                "numberOfBytes": "32"
+                            },
+                            "t_contract(IERC721)1479": {
+                                "encoding": "inplace",
+                                "label": "contract IERC721",
+                                "numberOfBytes": "20"
+                            },
+                            "t_mapping(t_address,t_bool)": {
+                                "encoding": "mapping",
+                                "key": "t_address",
+                                "label": "mapping(address => bool)",
+                                "numberOfBytes": "32",
+                                "value": "t_bool"
+                            },
+                            "t_mapping(t_address,t_uint256)": {
+                                "encoding": "mapping",
+                                "key": "t_address",
+                                "label": "mapping(address => uint256)",
+                                "numberOfBytes": "32",
+                                "value": "t_uint256"
+                            },
+                            "t_mapping(t_uint256,t_bytes_storage)": {
+                                "encoding": "mapping",
+                                "key": "t_uint256",
+                                "label": "mapping(uint256 => bytes)",
+                                "numberOfBytes": "32",
+                                "value": "t_bytes_storage"
+                            },
+                            "t_mapping(t_uint256,t_struct(Request)10191_storage)": {
+                                "encoding": "mapping",
+                                "key": "t_uint256",
+                                "label": "mapping(uint256 => struct Mod_Redemption.Request)",
+                                "numberOfBytes": "32",
+                                "value": "t_struct(Request)10191_storage"
+                            },
+                            "t_mapping(t_uint256,t_struct(SuccessfulRedemption)10202_storage)": {
+                                "encoding": "mapping",
+                                "key": "t_uint256",
+                                "label": "mapping(uint256 => struct Mod_Redemption.SuccessfulRedemption)",
+                                "numberOfBytes": "32",
+                                "value": "t_struct(SuccessfulRedemption)10202_storage"
+                            },
+                            "t_struct(Request)10191_storage": {
+                                "encoding": "inplace",
+                                "label": "struct Mod_Redemption.Request",
+                                "members": [
+                                    {
+                                        "astId": 10184,
+                                        "contract": "contracts/__mods/Redemption.sol:Mod_Redemption",
+                                        "label": "sender",
+                                        "offset": 0,
+                                        "slot": "0",
+                                        "type": "t_address"
+                                    },
+                                    {
+                                        "astId": 10186,
+                                        "contract": "contracts/__mods/Redemption.sol:Mod_Redemption",
+                                        "label": "redemption",
+                                        "offset": 0,
+                                        "slot": "1",
+                                        "type": "t_bytes_storage"
+                                    },
+                                    {
+                                        "astId": 10188,
+                                        "contract": "contracts/__mods/Redemption.sol:Mod_Redemption",
+                                        "label": "key",
+                                        "offset": 0,
+                                        "slot": "2",
+                                        "type": "t_bytes_storage"
+                                    },
+                                    {
+                                        "astId": 10190,
+                                        "contract": "contracts/__mods/Redemption.sol:Mod_Redemption",
+                                        "label": "valid",
+                                        "offset": 0,
+                                        "slot": "3",
+                                        "type": "t_bool"
+                                    }
+                                ],
+                                "numberOfBytes": "128"
+                            },
+                            "t_struct(SuccessfulRedemption)10202_storage": {
+                                "encoding": "inplace",
+                                "label": "struct Mod_Redemption.SuccessfulRedemption",
+                                "members": [
+                                    {
+                                        "astId": 10193,
+                                        "contract": "contracts/__mods/Redemption.sol:Mod_Redemption",
+                                        "label": "receiver",
+                                        "offset": 0,
+                                        "slot": "0",
+                                        "type": "t_address"
+                                    },
+                                    {
+                                        "astId": 10195,
+                                        "contract": "contracts/__mods/Redemption.sol:Mod_Redemption",
+                                        "label": "admin",
+                                        "offset": 0,
+                                        "slot": "1",
+                                        "type": "t_address"
+                                    },
+                                    {
+                                        "astId": 10197,
+                                        "contract": "contracts/__mods/Redemption.sol:Mod_Redemption",
+                                        "label": "time",
+                                        "offset": 0,
+                                        "slot": "2",
+                                        "type": "t_uint256"
+                                    },
+                                    {
+                                        "astId": 10199,
+                                        "contract": "contracts/__mods/Redemption.sol:Mod_Redemption",
+                                        "label": "tokenId",
+                                        "offset": 0,
+                                        "slot": "3",
+                                        "type": "t_uint256"
+                                    },
+                                    {
+                                        "astId": 10201,
+                                        "contract": "contracts/__mods/Redemption.sol:Mod_Redemption",
+                                        "label": "valid",
+                                        "offset": 0,
+                                        "slot": "4",
+                                        "type": "t_bool"
+                                    }
+                                ],
+                                "numberOfBytes": "160"
+                            },
+                            "t_uint256": {
+                                "encoding": "inplace",
+                                "label": "uint256",
+                                "numberOfBytes": "32"
+                            }
+                        }
+                    },
+                    "userdoc": {
+                        "kind": "user",
+                        "methods": {
+                            "approveRedeem(uint256,bytes)": {
+                                "notice": "Approves a request to redeem a token"
+                            },
+                            "onERC721Received(address,address,uint256,bytes)": {
+                                "notice": "Allows this redemption contract to receive ERC721 from approved addresses only"
+                            },
+                            "rejectRedeem(uint256)": {
+                                "notice": "Rejects a request to redeem a token"
+                            },
+                            "requestToken(uint256,bytes,bytes)": {
+                                "notice": "Requests a token to be transfered to the sender"
+                            }
+                        },
+                        "version": 1
+                    },
+                    "solcInput": "",
+                    "solcInputHash": "521228c6fafa0ebf46fee967aadc24d7",
+                    "transactionHash": "0xfd67463d03543f8eb7d033f7ddc103289f870aeb0eec2bf10df941f37311d129",
+                    "args": [
+                        "0x78BD89a79b830De5622E5B16a0eb257732009e16"
+                    ],
+                    "address": "0xB8418AD3108Fa2c39E528907CE7cED8974627d45",
+                    "receipt": {
+                        "to": null,
+                        "from": "0xB3C4Ae073f668242CFfF53157E26d10099f797e8",
+                        "contractAddress": "0xB8418AD3108Fa2c39E528907CE7cED8974627d45",
+                        "transactionIndex": 0,
+                        "gasUsed": {
+                            "type": "BigNumber",
+                            "hex": "0x2148c7"
+                        },
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockHash": "0x7fee27436c5ea11b58a615b9b778ee7d18e6a1a83ba3655ae822b85ab3ab69d0",
+                        "transactionHash": "0xfd67463d03543f8eb7d033f7ddc103289f870aeb0eec2bf10df941f37311d129",
+                        "logs": [],
+                        "blockNumber": 129,
+                        "confirmations": 1,
+                        "cumulativeGasUsed": {
+                            "type": "BigNumber",
+                            "hex": "0x2148c7"
+                        },
+                        "effectiveGasPrice": {
+                            "type": "BigNumber",
+                            "hex": "0x028fa6ae00"
+                        },
+                        "status": 1,
+                        "type": 0,
+                        "byzantium": true
+                    },
+                    "libraries": {
+                        "InfinityMintUtil": "0xc94c2F24693a4B13410524A5f75091d49aeeCB4e"
+                    },
+                    "newlyDeployed": true
+                },
+                {
+                    "_format": "hh-sol-artifact-1",
+                    "contractName": "Mod_RedemptionLinker",
+                    "sourceName": "contracts/__mods/RedemptionLinker.sol",
+                    "abi": {},
+                    "bytecode": 0,
+                    "deployedBytecode": 0,
+                    "linkReferences": {},
+                    "deployedLinkReferences": {},
+                    "devdoc": {
+                        "kind": "dev",
+                        "methods": {
+                            "approve(address,uint256)": {
+                                "details": "will Throw if tokenId does not exist"
+                            },
+                            "isApprovedOrOwner(address,uint256)": {
+                                "details": "same as open zepps"
+                            },
+                            "ownerOf(uint256)": {
+                                "details": "will Throw if the token does not exist"
+                            },
+                            "safeTransferFrom(address,address,uint256)": {
+                                "details": "Emits a {Transfer} event."
+                            },
+                            "safeTransferFrom(address,address,uint256,bytes)": {
+                                "details": "Emits a {Transfer} event."
+                            },
+                            "supportsInterface(bytes4)": {
+                                "details": "See {IERC165-supportsInterface}."
+                            },
+                            "transferFrom(address,address,uint256)": {
+                                "details": "Emits a {Transfer} event."
+                            }
+                        },
+                        "version": 1
+                    },
+                    "evm": {},
+                    "metadata": "",
+                    "storageLayout": {
+                        "storage": [
+                            {
+                                "astId": 742,
+                                "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                "label": "tokens",
+                                "offset": 0,
+                                "slot": "0",
+                                "type": "t_mapping(t_uint256,t_address)"
+                            },
+                            {
+                                "astId": 747,
+                                "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                "label": "uri",
+                                "offset": 0,
+                                "slot": "1",
+                                "type": "t_mapping(t_uint256,t_string_storage)"
+                            },
+                            {
+                                "astId": 752,
+                                "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                "label": "approvedTokens",
+                                "offset": 0,
+                                "slot": "2",
+                                "type": "t_mapping(t_uint256,t_address)"
+                            },
+                            {
+                                "astId": 759,
+                                "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                "label": "operators",
+                                "offset": 0,
+                                "slot": "3",
+                                "type": "t_mapping(t_address,t_mapping(t_address,t_bool))"
+                            },
+                            {
+                                "astId": 764,
+                                "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                "label": "balance",
+                                "offset": 0,
+                                "slot": "4",
+                                "type": "t_mapping(t_address,t_uint256)"
+                            },
+                            {
+                                "astId": 767,
+                                "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                "label": "_name",
+                                "offset": 0,
+                                "slot": "5",
+                                "type": "t_string_storage"
+                            },
+                            {
+                                "astId": 770,
+                                "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                "label": "_symbol",
+                                "offset": 0,
+                                "slot": "6",
+                                "type": "t_string_storage"
+                            },
+                            {
+                                "astId": 458,
+                                "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                "label": "deployer",
+                                "offset": 0,
+                                "slot": "7",
+                                "type": "t_address"
+                            },
+                            {
+                                "astId": 461,
+                                "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                "label": "executionCount",
+                                "offset": 0,
+                                "slot": "8",
+                                "type": "t_uint256"
+                            },
+                            {
+                                "astId": 465,
+                                "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                "label": "approved",
+                                "offset": 0,
+                                "slot": "9",
+                                "type": "t_mapping(t_address,t_bool)"
+                            },
+                            {
+                                "astId": 10972,
+                                "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                "label": "forcedUri",
+                                "offset": 0,
+                                "slot": "10",
+                                "type": "t_string_storage"
+                            },
+                            {
+                                "astId": 10975,
+                                "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                "label": "redemption",
+                                "offset": 0,
+                                "slot": "11",
+                                "type": "t_contract(Mod_Redemption)10959"
+                            },
+                            {
+                                "astId": 10978,
+                                "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                "label": "linker",
+                                "offset": 0,
+                                "slot": "12",
+                                "type": "t_contract(InfinityMintLinker)5547"
+                            },
+                            {
+                                "astId": 10981,
+                                "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                "label": "parent",
+                                "offset": 0,
+                                "slot": "13",
+                                "type": "t_contract(ERC721)1351"
+                            },
+                            {
+                                "astId": 11004,
+                                "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                "label": "redemptions",
+                                "offset": 0,
+                                "slot": "14",
+                                "type": "t_mapping(t_uint256,t_struct(ProofOfRedemption)10992_storage)"
+                            },
+                            {
+                                "astId": 11009,
+                                "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                "label": "tokenIdTable",
+                                "offset": 0,
+                                "slot": "15",
+                                "type": "t_mapping(t_uint256,t_struct(Map)10999_storage)"
+                            },
+                            {
+                                "astId": 11011,
+                                "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                "label": "redemptionTokenId",
+                                "offset": 0,
+                                "slot": "16",
+                                "type": "t_uint256"
+                            }
+                        ],
+                        "types": {
+                            "t_address": {
+                                "encoding": "inplace",
+                                "label": "address",
+                                "numberOfBytes": "20"
+                            },
+                            "t_bool": {
+                                "encoding": "inplace",
+                                "label": "bool",
+                                "numberOfBytes": "1"
+                            },
+                            "t_contract(ERC721)1351": {
+                                "encoding": "inplace",
+                                "label": "contract ERC721",
+                                "numberOfBytes": "20"
+                            },
+                            "t_contract(InfinityMintLinker)5547": {
+                                "encoding": "inplace",
+                                "label": "contract InfinityMintLinker",
+                                "numberOfBytes": "20"
+                            },
+                            "t_contract(Mod_Redemption)10959": {
+                                "encoding": "inplace",
+                                "label": "contract Mod_Redemption",
+                                "numberOfBytes": "20"
+                            },
+                            "t_mapping(t_address,t_bool)": {
+                                "encoding": "mapping",
+                                "key": "t_address",
+                                "label": "mapping(address => bool)",
+                                "numberOfBytes": "32",
+                                "value": "t_bool"
+                            },
+                            "t_mapping(t_address,t_mapping(t_address,t_bool))": {
+                                "encoding": "mapping",
+                                "key": "t_address",
+                                "label": "mapping(address => mapping(address => bool))",
+                                "numberOfBytes": "32",
+                                "value": "t_mapping(t_address,t_bool)"
+                            },
+                            "t_mapping(t_address,t_uint256)": {
+                                "encoding": "mapping",
+                                "key": "t_address",
+                                "label": "mapping(address => uint256)",
+                                "numberOfBytes": "32",
+                                "value": "t_uint256"
+                            },
+                            "t_mapping(t_uint256,t_address)": {
+                                "encoding": "mapping",
+                                "key": "t_uint256",
+                                "label": "mapping(uint256 => address)",
+                                "numberOfBytes": "32",
+                                "value": "t_address"
+                            },
+                            "t_mapping(t_uint256,t_string_storage)": {
+                                "encoding": "mapping",
+                                "key": "t_uint256",
+                                "label": "mapping(uint256 => string)",
+                                "numberOfBytes": "32",
+                                "value": "t_string_storage"
+                            },
+                            "t_mapping(t_uint256,t_struct(Map)10999_storage)": {
+                                "encoding": "mapping",
+                                "key": "t_uint256",
+                                "label": "mapping(uint256 => struct Mod_RedemptionLinker.Map)",
+                                "numberOfBytes": "32",
+                                "value": "t_struct(Map)10999_storage"
+                            },
+                            "t_mapping(t_uint256,t_struct(ProofOfRedemption)10992_storage)": {
+                                "encoding": "mapping",
+                                "key": "t_uint256",
+                                "label": "mapping(uint256 => struct Mod_RedemptionLinker.ProofOfRedemption)",
+                                "numberOfBytes": "32",
+                                "value": "t_struct(ProofOfRedemption)10992_storage"
+                            },
+                            "t_string_storage": {
+                                "encoding": "bytes",
+                                "label": "string",
+                                "numberOfBytes": "32"
+                            },
+                            "t_struct(Map)10999_storage": {
+                                "encoding": "inplace",
+                                "label": "struct Mod_RedemptionLinker.Map",
+                                "members": [
+                                    {
+                                        "astId": 10994,
+                                        "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                        "label": "valid",
+                                        "offset": 0,
+                                        "slot": "0",
+                                        "type": "t_bool"
+                                    },
+                                    {
+                                        "astId": 10996,
+                                        "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                        "label": "redemptionTokenId",
+                                        "offset": 0,
+                                        "slot": "1",
+                                        "type": "t_uint256"
+                                    },
+                                    {
+                                        "astId": 10998,
+                                        "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                        "label": "parentTokenId",
+                                        "offset": 0,
+                                        "slot": "2",
+                                        "type": "t_uint256"
+                                    }
+                                ],
+                                "numberOfBytes": "96"
+                            },
+                            "t_struct(ProofOfRedemption)10992_storage": {
+                                "encoding": "inplace",
+                                "label": "struct Mod_RedemptionLinker.ProofOfRedemption",
+                                "members": [
+                                    {
+                                        "astId": 10983,
+                                        "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                        "label": "valid",
+                                        "offset": 0,
+                                        "slot": "0",
+                                        "type": "t_bool"
+                                    },
+                                    {
+                                        "astId": 10985,
+                                        "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                        "label": "redemptionTokenId",
+                                        "offset": 0,
+                                        "slot": "1",
+                                        "type": "t_uint256"
+                                    },
+                                    {
+                                        "astId": 10987,
+                                        "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                        "label": "redeemedToken",
+                                        "offset": 0,
+                                        "slot": "2",
+                                        "type": "t_uint256"
+                                    },
+                                    {
+                                        "astId": 10989,
+                                        "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                        "label": "redeemer",
+                                        "offset": 0,
+                                        "slot": "3",
+                                        "type": "t_address"
+                                    },
+                                    {
+                                        "astId": 10991,
+                                        "contract": "contracts/__mods/RedemptionLinker.sol:Mod_RedemptionLinker",
+                                        "label": "time",
+                                        "offset": 0,
+                                        "slot": "4",
+                                        "type": "t_uint256"
+                                    }
+                                ],
+                                "numberOfBytes": "160"
+                            },
+                            "t_uint256": {
+                                "encoding": "inplace",
+                                "label": "uint256",
+                                "numberOfBytes": "32"
+                            }
+                        }
+                    },
+                    "userdoc": {
+                        "kind": "user",
+                        "methods": {
+                            "approve(address,uint256)": {
+                                "notice": "Sets an approved adress for this token"
+                            },
+                            "balanceOf(address)": {
+                                "notice": "blanceOf returns the number of tokens an address currently holds."
+                            },
+                            "exists(uint256)": {
+                                "notice": "Returns true if a token exists."
+                            },
+                            "getApproved(uint256)": {
+                                "notice": "Returns the approved adress for this token."
+                            },
+                            "isApprovedForAll(address,address)": {
+                                "notice": "Will returns true if the operator is approved by the owner address"
+                            },
+                            "isApprovedOrOwner(address,uint256)": {
+                                "notice": "will returns true if the address is apprroved for all, approved operator or is the owner of a token"
+                            },
+                            "name()": {
+                                "notice": "Returns the name of the ERC721  for display on places like Etherscan"
+                            },
+                            "ownerOf(uint256)": {
+                                "notice": "Returns the owner of a current token"
+                            },
+                            "safeTransferFrom(address,address,uint256)": {
+                                "notice": "Just like the method above except with no data field we pass to the implemeting contract."
+                            },
+                            "safeTransferFrom(address,address,uint256,bytes)": {
+                                "notice": "Just like transferFrom except we will check if the to address is a contract and is an IERC721Receiver implementer"
+                            },
+                            "setApprovalForAll(address,bool)": {
+                                "notice": "Will approve an operator for the senders tokens"
+                            },
+                            "supportsInterface(bytes4)": {
+                                "notice": "this is used by opensea/polyscan to detect our ERC721"
+                            },
+                            "symbol()": {
+                                "notice": "Returns the symbol of the ERC721 for display on places like Polyscan"
+                            },
+                            "tokenURI(uint256)": {
+                                "notice": "Returns the tokens URI Metadata object"
+                            },
+                            "transferFrom(address,address,uint256)": {
+                                "notice": "Transfers a token fsrom one address to another. Use safeTransferFrom as that will double check that the address you send this token too is a contract that can actually receive it."
+                            }
+                        },
+                        "version": 1
+                    },
+                    "solcInput": "",
+                    "solcInputHash": "521228c6fafa0ebf46fee967aadc24d7",
+                    "transactionHash": "0x8ee817e7619a4f6ada5cb2b19779b6bd8a7c744ab5271e6d3921c053851a85b8",
+                    "args": [
+                        "",
+                        "🧱.ImNotArt.eth: Proof Of Redemption",
+                        "PoR",
+                        "0xB8418AD3108Fa2c39E528907CE7cED8974627d45",
+                        "0x10DCfcD7D6397dea076cACA1443De9678aF4e26D",
+                        "0x78BD89a79b830De5622E5B16a0eb257732009e16"
+                    ],
+                    "address": "0xecEFC279efB68cF71f0ae00f568323E4362AF9b5",
+                    "receipt": {
+                        "to": null,
+                        "from": "0xB3C4Ae073f668242CFfF53157E26d10099f797e8",
+                        "contractAddress": "0xecEFC279efB68cF71f0ae00f568323E4362AF9b5",
+                        "transactionIndex": 0,
+                        "gasUsed": {
+                            "type": "BigNumber",
+                            "hex": "0x1df8bf"
+                        },
+                        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                        "blockHash": "0x1afce94fccf894bc68ea6220f1232fd5bc9e762aa8ba67f0a36016c9759b1452",
+                        "transactionHash": "0x8ee817e7619a4f6ada5cb2b19779b6bd8a7c744ab5271e6d3921c053851a85b8",
+                        "logs": [],
+                        "blockNumber": 130,
+                        "confirmations": 1,
+                        "cumulativeGasUsed": {
+                            "type": "BigNumber",
+                            "hex": "0x1df8bf"
+                        },
+                        "effectiveGasPrice": {
+                            "type": "BigNumber",
+                            "hex": "0x028fa6ae00"
+                        },
+                        "status": 1,
+                        "type": 0,
+                        "byzantium": true
+                    },
+                    "libraries": {
+                        "InfinityMintUtil": "0xc94c2F24693a4B13410524A5f75091d49aeeCB4e"
+                    },
+                    "newlyDeployed": true
+                }
+            ]
+        }
+    },
+    "contracts": {
+        "InfinityMint": "0x78BD89a79b830De5622E5B16a0eb257732009e16",
+        "InfinityMintStorage": "0x4DF745a640aD67ab3c5B1Ab66042e26d33Cac40B",
+        "InfinityMintUtil": "0xc94c2F24693a4B13410524A5f75091d49aeeCB4e",
+        "InfinityMintLinker": "0x10DCfcD7D6397dea076cACA1443De9678aF4e26D",
+        "InfinityMintValues": "0x730290885d54eedCe8E2A73eeEB0421863F3E457",
+        "InfinityMintApi": "0x621a7a340c74dD844d73DC5b500738777e0a19C2",
+        "InfinityMintProject": "0xef3ff0EC2923F6B0Fba2a038B264778C569f2260",
+        "SimpleSVG": "0x44CA84470d9C459A93834EF5a810B09Edbf16E60",
+        "UnsafeRandom": "0xd21809ecB3AaD6C6Dd82aAC9C882c49EB0AeC1C4",
+        "DefaultMinter": "0x557a2d02b37d1EFaA5a5d1842a7fD8d85850Ac33",
+        "SplitRoyalty": "0xcF8501Cb507d7781425f9a308Ee16C31C1e04dE4",
+        "Mod_FlagManager": "0x5ffa147c82a115FD4b66B67a2d6ad7fea6666DAC",
+        "Mod_Marketplace": "0x1269452E397De1361998eB8EF2c4560C91c48d08",
+        "Mod_SelectiveMint": "0xcc0a9eFa245C53333ae82A42a2FA1134b66AeE8D",
+        "Mod_MultiMinterOracle": "0xc9c4b1A095C0b19fE48c82B463c0206124aF9D30",
+        "Mod_Redemption": "0xB8418AD3108Fa2c39E528907CE7cED8974627d45",
+        "Mod_RedemptionLinker": "0xecEFC279efB68cF71f0ae00f568323E4362AF9b5",
+        "Fake_InfinityMintWallet": "0x381ee07929175AdC8D007304f2ffD4d7490a0A71",
+        "Fake_EADStickers": "0x369C20725c744143f9020B779a98D9328053eFf4",
+        "Fake_Mod_MultiReceiver": "0x161a44ABA9A98C97E66E97909C367F2149aEe049"
+    },
+    "links": {
+        "wallet": {
+            "key": "wallet",
+            "title": "Wallet Expansion (ERC721♾️Wallet)",
+            "versionType": "wallet",
+            "contract": "InfinityMintWallet",
+            "deployable": true,
+            "description": "Allows the token to act like a wallet, it will be able to hold ERC721 tokens as well as ERC20 tokens. This is where the magic begins.",
+            "deployFakeContract": true,
+            "useDefaultLinker": true,
+            "verifyIntegrity": true,
+            "onlyForced": false,
+            "canMint": false,
+            "args": [
+                [
+                    "uint256",
+                    "4294967295",
+                    "tokenId"
+                ],
+                [
+                    "address",
+                    "0x0000000000000000000000000000000000000000",
+                    "erc721Destination"
+                ]
+            ],
+            "index": 0,
+            "active": true,
+            "abi": "Fake_InfinityMintWallet"
+        },
+        "stickers": {
+            "key": "stickers",
+            "title": "EADS Sticker Controller",
+            "versionType": "EADStickers",
+            "contract": "EADStickers",
+            "deployable": true,
+            "description": "Allows your token access to the Ethereum Ad Network, a decentralized monetization platoform that supports advertising and sponsorship models. One of the products are called the EADS Stickers which enables virtual stickers to be placed onto your tokenURI for a price that you set.",
+            "deployFakeContract": true,
+            "useDefaultLinker": true,
+            "verifyIntegrity": true,
+            "onlyForced": false,
+            "canMint": false,
+            "args": [
+                [
+                    "uint256",
+                    "4294967295",
+                    "tokenId"
+                ],
+                [
+                    "address",
+                    "0x0000000000000000000000000000000000000000",
+                    "erc721Destination"
+                ],
+                [
+                    "address",
+                    "0x0000000000000000000000000000000000000000",
+                    "wallet"
+                ],
+                [
+                    "address",
+                    "0x0000000000000000000000000000000000000000",
+                    "valuesDestination"
+                ]
+            ],
+            "erc721": true,
+            "requirements": [
+                "wallet"
+            ],
+            "index": 1,
+            "active": true,
+            "abi": "Fake_EADStickers"
+        },
+        "multiminter": {
+            "key": "multiminter",
+            "title": "MultiMinter Receiver",
+            "versionType": "multiReceiver",
+            "contract": "Mod_MultiReceiver",
+            "deployable": true,
+            "description": "Allows the token receive MultiMinter tokens from this Minter. These are child minters within the parent Minter.",
+            "deployFakeContract": true,
+            "useDefaultLinker": true,
+            "verifyIntegrity": true,
+            "onlyForced": false,
+            "canMint": false,
+            "requirements": [
+                "wallet"
+            ],
+            "args": [
+                [
+                    "uint256",
+                    "42069",
+                    "tokenId"
+                ],
+                [
+                    "address",
+                    "0x0000000000000000000000000000000000000000",
+                    "erc721Destination"
+                ],
+                [
+                    "address",
+                    "0xc9c4b1A095C0b19fE48c82B463c0206124aF9D30",
+                    "Mod_MultiMinterOracle"
+                ]
+            ],
+            "index": 2,
+            "active": true,
+            "abi": "Fake_Mod_MultiReceiver"
+        },
+        "proof_of_redemption": {
+            "key": "proof_of_redemption",
+            "title": "🧾 Proof Of Redemption",
+            "description": "Use our Proof of Redemption system to redeem an NFTs for your phygital assets.",
+            "deployable": false,
+            "deployFakeContract": false,
+            "useDefaultLinker": false,
+            "verifyIntegrity": false,
+            "onlyForced": true,
+            "canMint": true,
+            "erc721": true,
+            "contract": "Mod_RedemptionLinker",
+            "permanent": true,
+            "method": "mintProofOfRedemption",
+            "useHooks": [
+                "redemption"
+            ],
+            "requirements": [
+                "wallet",
+                "stickers"
+            ],
+            "args": [
+                [
+                    "uint256",
+                    "0",
+                    "tokenId"
+                ]
+            ],
+            "index": 3,
+            "active": true
+        }
+    },
+    "project": "imnotart_ticketmint",
+    "deployTime": 1693764665738,
+    "deployer": "0xB3C4Ae073f668242CFfF53157E26d10099f797e8"
+}

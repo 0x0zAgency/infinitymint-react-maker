@@ -1,0 +1,36 @@
+{
+    "manifest": {
+        "name": "🥃Club.eth Gem",
+        "title": "🥃Club.eth Gem",
+        "author": "0x0z.eth, 0xWizardof0z.eth, 0xTinman.eth",
+        "description": "A gem to support NFT bar and drink features.",
+        "version": 1,
+        "permissions": {
+            "approved": [
+                ""
+            ]
+        },
+        "requirements": {
+            "project": ""
+        }
+    },
+    "loaded": 1693930123514,
+    "path": "mods/drinkclub/",
+    "name": "drinkclub",
+    "enabled": true,
+    "setupMethod": null,
+    "main": true,
+    "mainSrc": "drinkclub/main.js",
+    "reactPath": "/Users/0xwizardof0z/Documents/GitHub/infinitymint/../infinitymint-react-maker/src/Deployments/mods/drinkclub/",
+    "files": {
+        "pages": [
+            "drinkclub/Pages/Drink",
+            "drinkclub/Pages/DrinkAdmin"
+        ],
+        "images": [],
+        "styles": [],
+        "components": [],
+        "modals": [],
+        "resources": []
+    }
+}

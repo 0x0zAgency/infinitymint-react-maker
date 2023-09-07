@@ -1,0 +1,193 @@
+{
+    "files": {
+        "marketplace": {
+            "pages": [
+                "marketplace/Pages/Offer"
+            ],
+            "images": [],
+            "styles": [],
+            "components": [],
+            "modals": [],
+            "resources": []
+        },
+        "redemption": {
+            "pages": [
+                "redemption/Pages/Redemption",
+                "redemption/Pages/RedemptionControls",
+                "redemption/Pages/SimpleWhitelist"
+            ],
+            "images": [],
+            "styles": [],
+            "components": [],
+            "modals": [
+                "redemption/Modals/GeneratePhraseSetModal",
+                "redemption/Modals/LoadPhraseSetModal",
+                "redemption/Modals/ShowPhraseModal",
+                "redemption/Modals/ValidateRequestModal"
+            ],
+            "resources": []
+        },
+        "multimint": {
+            "pages": [
+                "multimint/Pages/AllContent",
+                "multimint/Pages/AllPaths",
+                "multimint/Pages/Audiocover",
+                "multimint/Pages/EditContent",
+                "multimint/Pages/EditPath",
+                "multimint/Pages/MintMultiMinter",
+                "multimint/Pages/MultiMinter",
+                "multimint/Pages/MyMultiMinter",
+                "multimint/Pages/SelectiveMint",
+                "multimint/Pages/TicketURI",
+                "multimint/Pages/TokenContent",
+                "multimint/Pages/ViewAudio",
+                "multimint/Pages/ViewContent",
+                "multimint/Pages/ViewMultiMinter"
+            ],
+            "images": [],
+            "styles": [],
+            "components": [],
+            "modals": [
+                "multimint/Modals/CreateMinterModal",
+                "multimint/Modals/CreateURIModal",
+                "multimint/Modals/DeletePathModal",
+                "multimint/Modals/EditPathModal",
+                "multimint/Modals/InspectContentModal",
+                "multimint/Modals/LoadTokenURIModal",
+                "multimint/Modals/SaveTokenURIModal",
+                "multimint/Modals/SetContentDataModal",
+                "multimint/Modals/SetImageModal",
+                "multimint/Modals/TempProjectModal",
+                "multimint/Modals/UpdateModal",
+                "multimint/Modals/UpdateProjectModal"
+            ],
+            "resources": [
+                "multimint/Resources/Mod_MultiMinter"
+            ]
+        },
+        "flagsExtended": {
+            "pages": [],
+            "images": [],
+            "styles": [],
+            "components": [],
+            "modals": [],
+            "resources": []
+        },
+        "onTokenDataManager": {
+            "pages": [],
+            "images": [],
+            "styles": [],
+            "components": [],
+            "modals": [],
+            "resources": []
+        },
+        "drinkclub": {
+            "pages": [
+                "drinkclub/Pages/Drink",
+                "drinkclub/Pages/DrinkAdmin"
+            ],
+            "images": [],
+            "styles": [],
+            "components": [],
+            "modals": [],
+            "resources": []
+        }
+    },
+    "updated": 1694118822480,
+    "mods": {
+        "marketplace": {
+            "manifest": {
+                "name": "🏴‍☠️Sea.eth Marketplace Gem",
+                "author": "0xTinman.eth, 0xWizardof0z.eth",
+                "description": "Enables decentalized marketplace functionality for your ♾️Mint",
+                "version": 1,
+                "dependencies": []
+            },
+            "loaded": 1694118822462,
+            "path": "mods/marketplace/",
+            "name": "marketplace",
+            "enabled": true,
+            "setupMethod": null
+        },
+        "redemption": {
+            "manifest": {
+                "name": "🎟️ Redemption Tools",
+                "author": "0x0zAgency",
+                "description": "Offers two forms of redemption for ERC721 tokens. The first method is a passcode (💿Keys.eth) based system which doesn't need any wallets to be set up. The second is classic Merkle Tree requiring addresses.",
+                "version": 1,
+                "production": true,
+                "requirements": {
+                    "version": "hydra"
+                },
+                "dependencies": [
+                    "@openzeppelin/contracts"
+                ]
+            },
+            "loaded": 1694118822463,
+            "path": "mods/redemption/",
+            "name": "redemption",
+            "enabled": true
+        },
+        "multimint": {
+            "manifest": {
+                "name": "♾️MultiMinter",
+                "title": "♾️MultiMinter",
+                "author": "0xTinman.eth, 0xWizardof0z.eth",
+                "description": "Add the power of TicketMint + MerchMint to your InfinityMint. Adds more minting options to your ♾️Mint. It also allows you to add embedded minters so you can offer tiered mints, service mints and more.",
+                "version": 1
+            },
+            "loaded": 1694118822463,
+            "path": "mods/multimint/",
+            "name": "multimint",
+            "enabled": true
+        },
+        "flagsExtended": {
+            "manifest": {
+                "name": "Flags Extended",
+                "author": "0xTinman.eth",
+                "description": "A mod which improves the UI and functionality of the token flag and address option system. Users can see the flags they have set for each token and options they have set which effect the whole mint.",
+                "version": 1,
+                "dependencies": []
+            },
+            "loaded": 1694118822461,
+            "path": "mods/flagsExtended/",
+            "name": "flagsExtended",
+            "enabled": true
+        },
+        "onTokenDataManager": {
+            "manifest": {
+                "name": "OnToken Data Manager",
+                "author": "0x0zAgency",
+                "description": "The OTDM is a mod which manages the memberData key of the tokenURI and its various interfaces.",
+                "version": 1,
+                "dependencies": []
+            },
+            "loaded": 1691982690438,
+            "path": "mods/onTokenDataManager/",
+            "name": "onTokenDataManager",
+            "enabled": true
+        },
+        "drinkclub": {
+            "manifest": {
+                "name": "🥃Club.eth Gem",
+                "title": "🥃Club.eth Gem",
+                "author": "0x0z.eth, 0xWizardof0z.eth, 0xTinman.eth",
+                "description": "A gem to support NFT bar and drink features.",
+                "version": 1,
+                "permissions": {
+                    "approved": [
+                        ""
+                    ]
+                },
+                "requirements": {
+                    "project": ""
+                }
+            },
+            "loaded": 1693930123514,
+            "path": "mods/drinkclub/",
+            "name": "drinkclub",
+            "enabled": true,
+            "setupMethod": null
+        }
+    }
+}
