@@ -1,6 +1,8 @@
 # InfinityMint React Maker by 0x0zAgency
 
 # Quickstart
+- [Live Testmet Deployment of 🥳time.eth](https://partytime.infinitymint.app/) - This demo dApp is provided as a case you can check out to understand how to work InfintyMint to your advantage. The test deployment is on Goerli🔵Base.
+
 ## Requirements
 - OS: Mac OSX, Windows (XP-11), Debian (5+), Ubuntu (14+)
 - Node: v18.5.0+
@@ -26,6 +28,11 @@
 ## Start React App
 
 1. Run `npm run start`.
+
+## Configure App
+
+1. Navigate over to `src/config.js` and adjust all of the relevant settings in this configuration file to suit your needs.
+2. Note: If you are using your local ganache as a testnet during development it is important to set the 
 
 ## Resources
 - [Follow Us](https://x.com/0x0zAgency)

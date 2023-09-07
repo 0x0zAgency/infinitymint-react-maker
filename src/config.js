@@ -298,7 +298,7 @@ export const Config = {
     settings: {
         hideFooter: true,
         requireWallet: false,
-        production: true,
+        production: true, // If true will use production folder in `src/Deployments/production` else will use `src/Deployments` It is important that your copy the correct filed to the production folder before building a deployment with a public testnet or mainnet. Always set this to true unless using GANACHE.
         showHim: true,
         useLocalProjectURI: false,
         dontLoadPaths: false,
