@@ -1,10 +1,14 @@
 # InfinityMint React Maker by 0x0zAgency
 
+Current Version: Schrödinger's Edition (🐈,🐈‍⬛)
+## 🧱 - [See how ♾️Mint created a Phygital Storefront for Chicago's premier click and mortar gallery and Metaverse Portal, <imnotArt>](https://imnot.art)
+
 # InfinityMint QuickStart Guide
 
 Say hello to Tokenized Commerce. Be your own marketplace! Sell your own tickets. Supercharge your Merch with the power of Phygital. Welcome to InfintyMint. A Web3 EVM Based Multi-chain Dynamic NFT Platform. A Minter that Mints minters which integrate with our EADS.eth supply-side advertising and sponsorship platform, and allows creators to mint an ∞ of NFT projects from PFP/Metaverse Portal Projects, to 1:1 NFTs, to Music NFTs.
 
 ## 🟨 - [Follow The 0x🟨Road.eth 🪞](https://magicmirror.one/0x0z.eth)
+
 ∞Mint.eth (InfinityMint), a cutting-edge tool designed for developers, designers, and artists seeking to elevate their content through Web3 technology. As a versatile development platform, InfinityMint enables the production of highly-scalable and dynamic Web3 content. For designers, it streamlines the prototyping process for NFT collections and facilitates the creation of unique randomized art with our innovative generation engine. For artists, it empowers the development of an entire decentralized ecosystem of users who can engage with your content, granting you full control over every aspect.
 
 InfinityMint boasts numerous groundbreaking features. It allows for the generation of dynamic NFTs, each with a distinct appearance, on the blockchain with minimal gas consumption. Our novel path and asset system for building generative art on-chain currently powers 50+ Web3 deployments. InfinityMint tokens are supported by a custom ERC721 implementation, unlocking a vast array of features previously thought unattainable without significant EVM updates.
