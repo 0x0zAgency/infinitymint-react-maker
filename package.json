@@ -1,7 +1,7 @@
 {
-    "name": "infinitymint-schrodinger-react",
-    "version": "0.1.0",
-    "private": true,
+    "name": "infinitymint-react-maker",
+    "version": "0.69.0.rm",
+    "private": false,
     "infinitymint": {
         "exportScript": "classic",
         "allowExport": true
