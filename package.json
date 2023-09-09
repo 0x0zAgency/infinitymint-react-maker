@@ -1,6 +1,6 @@
 {
     "name": "infinitymint-react-maker",
-    "version": "0.69.0.rm",
+    "version": "0.69.0-rm+000",
     "private": false,
     "infinitymint": {
         "exportScript": "classic",
