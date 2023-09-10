@@ -1,7 +1,43 @@
 {
-    "name": "infinitymint-react-maker",
-    "version": "0.69.0-rm+000",
+    "name": "infinitymint-rm",
+    "version": "0.69.1-rm+000",
+    "description": "InfinityMint is your key to Web3 and Tokenized Commerce, Phygital Goods, and IP Dashboard",
+    "license": "MIT",
+    "funding": {
+        "type": "eth",
+        "url": "web3://0x0z.eth"
+    },
+    "homepage": "https://github.com/0x0zAgency",
+    "bugs": {
+        "url": "https://github.com/0x0zAgency/infinitymint-react-maker/issues",
+        "email": "z@0x0z.me"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/0x0zAgency/infinitymint-react-maker.git"},
+    "keywords": [
+        "tokenized Commerce",
+        "t-commerce",
+        "tcommerce",   
+        "web3",
+        "ethereum",
+        "nft",
+        "dynamic nft",
+        "phygital",
+        "phygital goods",
+        "phygital goods marketplace",
+        "living nft"
+    ],
     "private": false,
+    "infinityMint": {
+        "allowImport": true
+    },
+    "author": {
+        "name": "0x0zAgency",
+        "email": "z@0x0z.me",
+        "url": "https://0x0z.xyz",
+        "twitter": "@0x0zAgency"
+    },
     "infinitymint": {
         "exportScript": "classic",
         "allowExport": true

@@ -1,12 +1,13 @@
 {
-    "name": "infinitymint-react-maker",
-    "version": "0.69.0-rm+000",
+    "name": "infinitymint-rm",
+    "version": "0.69.1-rm+000",
     "lockfileVersion": 3,
     "requires": true,
     "packages": {
         "": {
-            "name": "infinitymint-react-maker",
-            "version": "0.69.0-rm+000",
+            "name": "infinitymint-rm",
+            "version": "0.69.1-rm+000",
+            "license": "MIT",
             "dependencies": {
                 "@testing-library/jest-dom": "^5.11.4",
                 "@testing-library/react": "^11.1.0",
@@ -52,6 +53,10 @@
                 "gulp-replace": "^1.1.3",
                 "react-error-overlay": "^6.0.9",
                 "tsc": "^2.0.4"
+            },
+            "funding": {
+                "type": "eth",
+                "url": "web3://0x0z.eth"
             }
         },
         "node_modules/@aashutoshrathi/word-wrap": {
