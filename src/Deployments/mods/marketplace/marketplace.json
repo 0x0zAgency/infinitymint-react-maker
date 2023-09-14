@@ -6,14 +6,14 @@
         "version": 1,
         "dependencies": []
     },
-    "loaded": 1694118822462,
+    "loaded": 1694576302011,
     "path": "mods/marketplace/",
     "name": "marketplace",
     "enabled": true,
     "setupMethod": null,
     "main": true,
     "mainSrc": "marketplace/main.js",
-    "reactPath": "/Users/zyonjosh/Documents/GitHub/infinitymint/../infinitymint-react-maker/src/Deployments/mods/marketplace/",
+    "reactPath": "/Users/0xwizardof0z/Documents/GitHub/infinitymint/../infinitymint-react-maker/src/Deployments/mods/marketplace/",
     "files": {
         "pages": [
             "marketplace/Pages/Offer"

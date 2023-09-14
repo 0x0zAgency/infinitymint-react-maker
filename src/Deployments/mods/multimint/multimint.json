@@ -6,13 +6,13 @@
         "description": "Add the power of TicketMint + MerchMint to your InfinityMint. Adds more minting options to your ♾️Mint. It also allows you to add embedded minters so you can offer tiered mints, service mints and more.",
         "version": 1
     },
-    "loaded": 1694118822463,
+    "loaded": 1694576302012,
     "path": "mods/multimint/",
     "name": "multimint",
     "enabled": true,
     "main": true,
     "mainSrc": "multimint/main.js",
-    "reactPath": "/Users/zyonjosh/Documents/GitHub/infinitymint/../infinitymint-react-maker/src/Deployments/mods/multimint/",
+    "reactPath": "/Users/0xwizardof0z/Documents/GitHub/infinitymint/../infinitymint-react-maker/src/Deployments/mods/multimint/",
     "files": {
         "pages": [
             "multimint/Pages/AllContent",

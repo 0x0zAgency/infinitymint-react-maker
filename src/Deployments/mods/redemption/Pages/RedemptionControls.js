@@ -169,6 +169,15 @@ class RedemptionControls extends Component {
         );
     }
 
+    async rejectRequest(tokenId) {
+        return await Controller.callMethod(
+            Controller.accounts[0],
+            'Mod_Redemption',
+            'rejectRedeem',
+            [tokenId]
+        );
+    }
+
     async getTokens(page = 0) {
         this.setState({
             tokens: {},
@@ -1459,6 +1468,14 @@ class RedemptionControls extends Component {
                                                                                                 ] ===
                                                                                                 undefined ? (
                                                                                                     <div className="d-grid gap-1 mt-2">
+                                                                                                        <Button
+                                                                                                                variant="danger"
+                                                                                                                onClick={() => {
+
+                                                                                                                    this.rejectRequest(this.tokenId)
+                                                                                                               }}>
+                                                                                                                Reject Request
+                                                                                                            </Button>
                                                                                                         {/**
                                                                                     <Button variant="danger" hidden={!token?.noPhrase || this.state.unlinkedPhrases.length === 0 || token.notRedeemable === false} onClick={() => {
                                                                                         this.linkTokenToPhrases({ 0: this.state.unlinkedPhrases[0] }, { [token.tokenId]: token })
@@ -1506,6 +1523,8 @@ class RedemptionControls extends Component {
                                                                                                                     16
                                                                                                                 )}
                                                                                                             </Button>
+                                                                                                           
+                                                                                                            
                                                                                                         ) : (
                                                                                                             <>
 

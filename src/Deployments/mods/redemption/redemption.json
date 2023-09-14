@@ -12,13 +12,13 @@
             "@openzeppelin/contracts"
         ]
     },
-    "loaded": 1694118822463,
+    "loaded": 1694576302012,
     "path": "mods/redemption/",
     "name": "redemption",
     "enabled": true,
     "main": true,
     "mainSrc": "redemption/main.js",
-    "reactPath": "/Users/zyonjosh/Documents/GitHub/infinitymint/../infinitymint-react-maker/src/Deployments/mods/redemption/",
+    "reactPath": "/Users/0xwizardof0z/Documents/GitHub/infinitymint/../infinitymint-react-maker/src/Deployments/mods/redemption/",
     "files": {
         "pages": [
             "redemption/Pages/Redemption",

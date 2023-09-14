@@ -93,7 +93,7 @@
             "resources": []
         }
     },
-    "updated": 1694118822480,
+    "updated": 1694576302018,
     "mods": {
         "marketplace": {
             "manifest": {
@@ -103,7 +103,7 @@
                 "version": 1,
                 "dependencies": []
             },
-            "loaded": 1694118822462,
+            "loaded": 1694576302011,
             "path": "mods/marketplace/",
             "name": "marketplace",
             "enabled": true,
@@ -123,7 +123,7 @@
                     "@openzeppelin/contracts"
                 ]
             },
-            "loaded": 1694118822463,
+            "loaded": 1694576302012,
             "path": "mods/redemption/",
             "name": "redemption",
             "enabled": true
@@ -136,7 +136,7 @@
                 "description": "Add the power of TicketMint + MerchMint to your InfinityMint. Adds more minting options to your ♾️Mint. It also allows you to add embedded minters so you can offer tiered mints, service mints and more.",
                 "version": 1
             },
-            "loaded": 1694118822463,
+            "loaded": 1694576302012,
             "path": "mods/multimint/",
             "name": "multimint",
             "enabled": true
@@ -149,7 +149,7 @@
                 "version": 1,
                 "dependencies": []
             },
-            "loaded": 1694118822461,
+            "loaded": 1694576302011,
             "path": "mods/flagsExtended/",
             "name": "flagsExtended",
             "enabled": true
