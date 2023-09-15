@@ -5,7 +5,7 @@ Current Version: Schrödinger's Edition (🐈,🐈‍⬛)
 
 # InfinityMint QuickStart Guide
 
-Say hello to Tokenized Commerce. Be your own marketplace! Sell your own tickets. Supercharge your Merch with the power of Phygital. Welcome to InfintyMint. A Web3 EVM Based Multi-chain Dynamic NFT Platform. A Minter that Mints minters which integrate with our EADS.eth supply-side advertising and sponsorship platform, and allows creators to mint an ∞ of NFT projects from PFP/Metaverse Portal Projects, to 1:1 NFTs, to Music NFTs.
+Say hello to Tokenized Commerce. Be your own marketplace! Sell your own tickets. Supercharge your Merch with the power of Phygital. Welcome to InfinityMint. A Web3 EVM Based Multi-chain Dynamic NFT Platform. A Minter that Mints minters which integrate with our EADS.eth supply-side advertising and sponsorship platform, and allows creators to mint an ∞ of NFT projects from PFP/Metaverse Portal Projects, to 1:1 NFTs, to Music NFTs.
 
 ## 🟨 - [Follow The 0x🟨Road.eth 🪞](https://magicmirror.one/0x0z.eth)
 
@@ -36,7 +36,7 @@ This “NFT” is all about utility by creating your very own custom Dynamic NFT
 - Infinity Gems expand your NFTs power and because your InfinityMint NFTs are modular, you can upgrade them in perpetuity
 
 # Quickstart
-- [Live Testnet Deployment of 🥳time.eth](https://partytime.infinitymint.app/) - This demo dApp is provided as a case you can check out to understand how to work InfintyMint to your advantage. The test deployment is on Goerli🔵Base.
+- [Live Testnet Deployment of 🥳time.eth](https://partytime.infinitymint.app/) - This demo dApp is provided as a case you can check out to understand how to work InfinityMint to your advantage. The test deployment is on Goerli🔵Base.
 
 ## Requirements
 - OS: Mac OSX, Windows (XP-11), Debian (5+), Ubuntu (14+)
