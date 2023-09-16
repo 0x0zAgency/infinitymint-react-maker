@@ -1,11 +1,11 @@
 {
-    "name": "infinitymint-rm",
+    "name": "@0x0zagency/infinitymint-rm",
     "version": "0.69.3-rm+000",
     "lockfileVersion": 3,
     "requires": true,
     "packages": {
         "": {
-            "name": "infinitymint-rm",
+            "name": "@0x0zagency/infinitymint-rm",
             "version": "0.69.3-rm+000",
             "license": "MIT",
             "dependencies": {
